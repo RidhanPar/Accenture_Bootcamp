@@ -90,8 +90,8 @@ for model in MODELS:
     print(f"{model} is running its itteration")
     for prompt in PROMPTS:
         result = run_benchmark(model,prompt)
-        if result["response"] == "":
-            print(f"This {prompt} under {model} provided a empty ouput")
+        if result["response"] in [None,""]:
+            print(f"This prompt category [{prompt["category"]}] under [{model}] provided a empty ouput and finish reason is [{result["finish_reason"]}]")
         benchmark_resutls.append(result)
 
 with open("benchmark_results.json", "w", encoding="utf-8") as f:
