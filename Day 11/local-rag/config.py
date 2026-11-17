@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+import re
 
 LLM_BASE_URL = os.getenv("LLM_BASE_URL", "http://localhost:11434/v1")
 LLM_API_KEY = os.getenv("LLM_API_KEY", "ollama")
@@ -31,3 +32,4 @@ EMBED_BATCH_SIZE = 32
 
 CHROMA_DIR = "chroma_db"
 COLLECTION_NAME ="corpus"
+
