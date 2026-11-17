@@ -1,0 +1,164 @@
+[
+  {
+    "id": "q01",
+    "question": "How many days of paid time off do full-time employees receive per year?",
+    "expected_answer": "Full-time employees receive 25 days of paid time off per calendar year, in addition to the public holidays observed at their office location.",
+    "source_document": "company_handbook.pdf",
+    "source_pages": [5],
+    "difficulty": "easy",
+    "type": "factual"
+  },
+  {
+    "id": "q02",
+    "question": "What is the maximum nightly hotel rate for international business travel?",
+    "expected_answer": "The maximum nightly hotel rate for international travel is EUR 200 (EUR 150 for domestic travel). Exceptions for high-cost cities can be approved by Finance case by case.",
+    "source_document": "company_handbook.pdf",
+    "source_pages": [7],
+    "difficulty": "easy",
+    "type": "factual"
+  },
+  {
+    "id": "q03",
+    "question": "How quickly must a P1 (Critical) security incident be acknowledged?",
+    "expected_answer": "A P1 incident must be acknowledged within 15 minutes of detection, and the full Incident Response Team must be assembled within 30 minutes.",
+    "source_document": "security_policy.pdf",
+    "source_pages": [6],
+    "difficulty": "easy",
+    "type": "factual"
+  },
+  {
+    "id": "q04",
+    "question": "What was NovaTech's Annual Recurring Revenue at the end of Q1 2026?",
+    "expected_answer": "ARR was EUR 18.2 million at the end of Q1 2026, a 23% year-over-year increase from EUR 14.8 million at the end of Q1 2025.",
+    "source_document": "quarterly_report_q1_2026.pdf",
+    "source_pages": [1],
+    "difficulty": "easy",
+    "type": "factual"
+  },
+  {
+    "id": "q05",
+    "question": "What is the API rate limit for the Professional tier?",
+    "expected_answer": "The Professional tier allows 1,000 requests per minute, with a burst limit of 50 requests per second and a daily maximum of 500,000 requests.",
+    "source_document": "product_guide.pdf",
+    "source_pages": [16],
+    "difficulty": "easy",
+    "type": "factual"
+  },
+  {
+    "id": "q06",
+    "question": "Which CRM was selected to replace Pipedrive?",
+    "expected_answer": "HubSpot Enterprise was selected in the February 12, 2026 meeting, with a target go-live of April 15. Its 3-year TCO was EUR 385K, compared with EUR 780K for Salesforce.",
+    "source_document": "meeting_notes.pdf",
+    "source_pages": [5],
+    "difficulty": "easy",
+    "type": "factual"
+  },
+  {
+    "id": "q07",
+    "question": "Compare the uptime SLA and the response time for critical issues across the Starter, Professional and Enterprise tiers.",
+    "expected_answer": "Starter: 99.5% uptime and a 4 hour response for critical issues. Professional: 99.9% uptime and a 1 hour response. Enterprise: 99.95% uptime and a 15 minute response.",
+    "source_document": "product_guide.pdf",
+    "source_pages": [13, 14],
+    "difficulty": "medium",
+    "type": "comparison"
+  },
+  {
+    "id": "q08",
+    "question": "Which Enterprise accounts are at risk of not renewing, and how much ARR is at stake?",
+    "expected_answer": "Three accounts: Gruber Manufacturing (EUR 178K, renewal June 2026), Rheinland Utilities AG (EUR 148K, July 2026) and Alpen Logistics (EUR 94K, May 2026). Total at-risk ARR is EUR 420K, about 2.3% of total ARR.",
+    "source_document": "quarterly_report_q1_2026.pdf",
+    "source_pages": [10],
+    "difficulty": "medium",
+    "type": "synthesis"
+  },
+  {
+    "id": "q09",
+    "question": "What can the Shared Analytics Dashboard do in Insight that it cannot do in ProjectHub?",
+    "expected_answer": "The Insight version adds custom widgets, data from all connected sources (not only ProjectHub), refresh rates up to real time, interactive drill-down, row-level security, embedding, scheduled distribution and cross-dashboard linking. The ProjectHub version has only its 8 pre-built widgets and refreshes every 30 minutes.",
+    "source_document": "product_guide.pdf",
+    "source_pages": [9, 10],
+    "difficulty": "medium",
+    "type": "comparison"
+  },
+  {
+    "id": "q10",
+    "question": "What budget was approved for NovaTech Copilot and how is it broken down?",
+    "expected_answer": "EUR 1.2M was approved: EUR 780K personnel, EUR 280K infrastructure (GPU compute), EUR 90K external consulting and dataset licensing, and EUR 50K contingency. Staffing is phased, with 2 ML engineers from April ramping to 4 by July.",
+    "source_document": "meeting_notes.pdf",
+    "source_pages": [8],
+    "difficulty": "medium",
+    "type": "synthesis"
+  },
+  {
+    "id": "q11",
+    "question": "What security and data protection training must employees complete, and when?",
+    "expected_answer": "Information Security Awareness training within 30 days of joining and annually after that, plus the Advanced Data Handling module for anyone with access to Confidential or Restricted data. Employees who miss it have system access suspended. The handbook also requires the annual data protection training via NovaLearn in February to keep access to Confidential and Restricted data.",
+    "source_document": ["security_policy.pdf", "company_handbook.pdf"],
+    "source_pages": [14, 16],
+    "difficulty": "medium",
+    "type": "synthesis"
+  },
+  {
+    "id": "q12",
+    "question": "How often must employees change their passwords?",
+    "expected_answer": "The handbook says every 90 days. However, the leadership meeting on March 5, 2026 extended rotation to 180 days for employee user accounts, effective immediately. Infrastructure credentials stay on 90-day rotation.",
+    "source_document": ["company_handbook.pdf", "meeting_notes.pdf"],
+    "source_pages": [14, 7],
+    "difficulty": "hard",
+    "type": "conflicting_sources"
+  },
+  {
+    "id": "q13",
+    "question": "How many days per week can employees work remotely?",
+    "expected_answer": "The handbook allows up to 3 remote days per week with manager approval (1 day during the 6-month probation). The March 5, 2026 meeting decided to increase this to 4 days from Q3 2026, with Tuesday as the mandatory office day; department heads may require additional office days with HR approval.",
+    "source_document": ["company_handbook.pdf", "meeting_notes.pdf"],
+    "source_pages": [4, 7],
+    "difficulty": "hard",
+    "type": "conflicting_sources"
+  },
+  {
+    "id": "q14",
+    "question": "When was ProjectHub v3.2 released?",
+    "expected_answer": "The documents disagree. The meeting notes say it shipped on January 28, 2026, two weeks behind schedule. The Q1 2026 quarterly report says it was released on February 12, 2026.",
+    "source_document": ["meeting_notes.pdf", "quarterly_report_q1_2026.pdf"],
+    "source_pages": [3, 5],
+    "difficulty": "hard",
+    "type": "conflicting_sources"
+  },
+  {
+    "id": "q15",
+    "question": "A Professional-tier customer had 99.2% uptime last month. What SLA credit are they entitled to?",
+    "expected_answer": "10% of the monthly fee, because 99.2% falls in the 98.0% to 99.89% band for the Professional tier. The credit is applied to the next billing cycle, and the request must be submitted within 30 days of the incident.",
+    "source_document": "product_guide.pdf",
+    "source_pages": [14],
+    "difficulty": "hard",
+    "type": "reasoning"
+  },
+  {
+    "id": "q16",
+    "question": "How many weeks of parental leave do employees in Portugal get?",
+    "expected_answer": "The documents do not state this. The handbook only says parental leave follows local statutory requirements, with HR notified at least 8 weeks in advance, and refers to a country-specific addendum that is not included.",
+    "source_document": null,
+    "source_pages": [],
+    "difficulty": "hard",
+    "type": "unanswerable"
+  },
+  {
+    "id": "q17",
+    "question": "What was NovaTech's revenue in Q2 2026?",
+    "expected_answer": "The documents do not contain Q2 2026 revenue. They cover only Q1 2026; the Q2 report is scheduled for July 14, 2026.",
+    "source_document": null,
+    "source_pages": [],
+    "difficulty": "medium",
+    "type": "unanswerable"
+  },
+  {
+    "id": "q18",
+    "question": "How much does the ProjectHub mobile app cost?",
+    "expected_answer": "The documents do not contain this information. The mobile app is only listed on the roadmap for Q3 2026, in the design phase, with no price given.",
+    "source_document": null,
+    "source_pages": [],
+    "difficulty": "medium",
+    "type": "unanswerable"
+  }
+]

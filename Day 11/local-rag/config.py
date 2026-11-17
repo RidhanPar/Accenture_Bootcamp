@@ -33,3 +33,5 @@ EMBED_BATCH_SIZE = 32
 CHROMA_DIR = "chroma_db"
 COLLECTION_NAME ="corpus"
 
+TEST_QUESTIONS_FILE = "test_questions.json"
+OUTPUT_FILE = "pipeline_outputs.json"
