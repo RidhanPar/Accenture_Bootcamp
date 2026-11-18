@@ -4,7 +4,7 @@ import re
 
 LLM_BASE_URL = os.getenv("LLM_BASE_URL", "http://localhost:11434/v1")
 LLM_API_KEY = os.getenv("LLM_API_KEY", "ollama")
-LLM_MODEL = os.getenv("LLM_MODEL", "qwen3.5:4b-q4_K_M")
+LLM_MODEL = os.getenv("LLM_MODEL", "qwen3.5:2b-q4_K_M")
 
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "nomic-embed-text")
 EMBEDDING_API_KEY = os.getenv("EMBED_API_KEY", "ollama")
