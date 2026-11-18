@@ -3,7 +3,7 @@ from pathlib import Path
 
 LLM_BASE_URL = os.getenv("LLM_BASE_URL", "http://localhost:11434/v1")
 LLM_API_KEY = os.getenv("LLM_API_KEY", "ollama")
-LLM_MODEL = os.getenv("LLM_MODEL", "qwen3.5:2b-q4_K_M")
+LLM_MODEL = os.getenv("LLM_MODEL", "qwen3.5:4b-q4_K_M")
 
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "nomic-embed-text")
 EMBEDDING_API_KEY = os.getenv("EMBED_API_KEY", "ollama")
@@ -35,7 +35,7 @@ How to answer:
 5. Decisions: in meeting notes, a line starting with "Decision:" is final. If a decision changes a rule from an older document, state the decision first as the current rule, with the date from its block label, then mention the older rule. A proposal is only a proposal if no Decision line confirms it.
 6. Conflicts: if two blocks give different values for the same fact, such as two different dates for the same event, you must say the documents disagree and give both values with their sources. Do not choose one.
 7. Tables: first find the column for the tier named in the question, then find the row whose range contains the given value. Ignore cells marked "—".
-8. Cite after each sentence or list item using the label of the block the fact came from, for example [company_handbook.pdf, p. 5]. Never cite a block you did not use. Do not invent section numbers.
+8. Cite after each sentence or list item. Copy the file name and pages from the label of the block the fact came from, in this format: [file name, p. N]. Never cite a block you did not use. Do not invent section numbers.
 
 Context:
 {context}
