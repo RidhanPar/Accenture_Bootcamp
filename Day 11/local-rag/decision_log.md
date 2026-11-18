@@ -47,8 +47,9 @@ Service Level Agreements\n\nNovaTech provides uptime guarantees based on tier. U
   - V1: top 5 chunks of 512 characters
   - V2 & finalversion child: search the top 20 child chunks, return the top 4 unique parent sections (max 2500 characters each)
 - **Context window:** 8192 tokens (from `ollama ps`)
-  - V1 prompt_tokens: 612 to 955 (`pipeline_outputs_v1.json`)
-  - V2 & finalversion child prompt_tokens:  to [highest __] (`pipeline_outputs.json`)
+    - V1 prompt_tokens: 612 to 955 (`pipeline_outputs_v1.json`)
+    - V2 with 2B model prompt_tokens: 994 to 2,325 (`pipeline_outputs_v2.json`)
+    - V3 with 4B model prompt_tokens: 1,171 to 2,502 (`pipeline_outputs.json`)
 - **Why:**
   I have changed the strategy to parent child chunking so that we do not miss the correct chunks or lose important chunks that are cut off at chunk boundaries.So, I first thought about increasing the chunk size, but we could not be sure which number would work best, and we might mix several other topics into a single chunk, which would create conflicts for the model. So I made the change to retrieve the top 20 child chunks and, from those, return the top 4 unique parents, each with a maximum of 2500 characters. This is still within our context size, and it seems it doesn't affected the speed much. This decision was taken mainly because of q06, q10, q12 and q13, which failed because important chunks were missing due to the cutoff. That is why I changed the strategy, and also the configuration to suit that strategy.
 
