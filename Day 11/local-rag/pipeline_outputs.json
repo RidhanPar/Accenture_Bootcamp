@@ -568,8 +568,8 @@
     "tokens_generated": 143,
     "retrieval_time_ms": 2276,
     "generation_time_ms": 100397,
-    "passed": true,
-    "rating_note": "all good"
+    "passed": false,
+    "rating_note": "says a february meeting proposes 4 days and it was a March 5 decision this ones the cloud models might perform well with thinking ability"
   },
   {
     "id": "q14",
@@ -656,8 +656,8 @@
     "tokens_generated": 152,
     "retrieval_time_ms": 2199,
     "generation_time_ms": 88865,
-    "passed": false,
-    "rating_note": "10% is correct but it says the 20% band is for Professional but that band is Enterprise this seems to be generation issue I guess cloud model will perform better"
+    "passed": true,
+    "rating_note": "all good"
   },
   {
     "id": "q16",
