@@ -27,7 +27,7 @@ def to_output_row(question: dict, result: dict) -> dict:
         "question": question["question"],
         "expected_answer": question["expected_answer"],
         "actual_answer": result["answer"],
-        "retrieved_context": [c["content"] for c in chunks],
+        "retrieved_context": result["context_used"],
         "context_sources": [
             {"source": c["source"], "page": c["page"], "score": c["relevance_score"]}
             for c in chunks

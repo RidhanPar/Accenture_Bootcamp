@@ -5,16 +5,22 @@ from openai import OpenAI
 import config
 
 
-def build_context(chunks: list[dict]) -> str:
-    parts = []
+def build_context_blocks(chunks: list[dict]) -> list[str]:
+    blocks = []
     for i, chunk in enumerate(chunks, start=1):
-        parts.append(f"[{i}] Source: {chunk['source']}, page {chunk['page']}\n{chunk['content']}")
-    return "\n\n".join(parts)
+        first, last = chunk["page_range"]
+        pages = f"p. {first}" if first == last else f"pp. {first}-{last}"
+        blocks.append(
+            f"--- Context {i} | {chunk['source']} | {pages} | dated {chunk['date']} ---\n"
+            f"{chunk['content'].strip()}"
+        )
+    return blocks
 
 
 def generate_answer(query: str, chunks: list[dict]) -> dict:
     client = OpenAI(base_url=config.LLM_BASE_URL, api_key=config.LLM_API_KEY)
-    context = build_context(chunks)
+    context_blocks = build_context_blocks(chunks)
+    context = "\n\n".join(context_blocks)
 
     start = time.time()
     response = client.chat.completions.create(
@@ -39,7 +45,7 @@ def generate_answer(query: str, chunks: list[dict]) -> dict:
     return {
         "query": query,
         "answer": answer,
-        "context_used": context,
+        "context_used": context_blocks,
         "model": config.LLM_MODEL,
         "thinking": config.REASONING_EFFORT != "none",
         "finish_reason": choice.finish_reason,

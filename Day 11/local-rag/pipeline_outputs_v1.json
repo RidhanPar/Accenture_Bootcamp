@@ -46,7 +46,7 @@
     "tokens_generated": 91,
     "retrieval_time_ms": 7440,
     "generation_time_ms": 27848,
-    "passed": "fail",
+    "passed": false,
     "rating_note": "given correct answer but cite section 1 but its source 1 so need to do some prompt correction I guess"
   },
   {
@@ -96,7 +96,7 @@
     "tokens_generated": 61,
     "retrieval_time_ms": 2154,
     "generation_time_ms": 16942,
-    "passed": "fail",
+    "passed": false,
     "rating_note": "same as the previous question answer is correct but it cites as section 1 istead of source 1 so with this info user might check the documents section 1 and will not find the answer"
   },
   {
@@ -146,7 +146,7 @@
     "tokens_generated": 31,
     "retrieval_time_ms": 2223,
     "generation_time_ms": 16162,
-    "passed": "pass",
+    "passed": true,
     "rating_note": "it answered correctly however it omitted 30 minutes from the expected answer but still for the question asked this answer is enough"
   },
   {
@@ -196,7 +196,7 @@
     "tokens_generated": 63,
     "retrieval_time_ms": 2270,
     "generation_time_ms": 23045,
-    "passed": "Pass",
+    "passed": true,
     "rating_note": "answerd the questoin as expected however ommited some from the expected answer but that is not the necessary part without that also the answer is correct to the question"
   },
   {
@@ -246,7 +246,7 @@
     "tokens_generated": 77,
     "retrieval_time_ms": 2154,
     "generation_time_ms": 25928,
-    "passed": "Pass",
+    "passed": true,
     "rating_note": "Answerd correctly to the quesiton asked"
   },
   {
@@ -296,7 +296,7 @@
     "tokens_generated": 69,
     "retrieval_time_ms": 2232,
     "generation_time_ms": 24156,
-    "passed": "fail",
+    "passed": false,
     "rating_note": "the correct chunk was not retrived when checked with the og document it missed the important part of the paragraph which says what is the final decision to go ahead so here we can either increase the size or may be since there were sections maybe we can do a child parent kind of paragraph chunking"
   },
   {
@@ -346,7 +346,7 @@
     "tokens_generated": 158,
     "retrieval_time_ms": 2228,
     "generation_time_ms": 31636,
-    "passed": "fail",
+    "passed": false,
     "rating_note": "retrived the right chunk search is good but what happened worst is the chunking again actually the table in the orginal document was splitted into two pages and our chunker combined the end of the previous page without any header and it even took the right chunk because of the header from the second page or else it wont so need to improve the chunking statergy for tables as well"
   },
   {
@@ -396,7 +396,7 @@
     "tokens_generated": 208,
     "retrieval_time_ms": 2223,
     "generation_time_ms": 40108,
-    "passed": "Fail",
+    "passed": false,
     "rating_note": "Cut-off an important info however found the correct chunk so need to work on chunking startergy"
   },
   {
@@ -446,7 +446,7 @@
     "tokens_generated": 173,
     "retrieval_time_ms": 2234,
     "generation_time_ms": 32191,
-    "passed": "Pass",
+    "passed": true,
     "rating_note": "All good "
   },
   {
@@ -496,7 +496,7 @@
     "tokens_generated": 129,
     "retrieval_time_ms": 2250,
     "generation_time_ms": 27198,
-    "passed": "fail",
+    "passed": false,
     "rating_note": "Again a chunking issue found the EUR 1.2 M but missed the drill down"
   },
   {
@@ -546,7 +546,7 @@
     "tokens_generated": 123,
     "retrieval_time_ms": 2197,
     "generation_time_ms": 24546,
-    "passed": "Pass",
+    "passed": true,
     "rating_note": "all good"
   },
   {
@@ -596,7 +596,7 @@
     "tokens_generated": 69,
     "retrieval_time_ms": 2211,
     "generation_time_ms": 24543,
-    "passed": "fail",
+    "passed": false,
     "rating_note": "even it have that new update 180 days it leads wtih 90 days and it missed the chunking line effective imeddietly if we had that then this LLM might have got the full context and lead with 180 since its effective already."
   },
   {
@@ -646,7 +646,7 @@
     "tokens_generated": 122,
     "retrieval_time_ms": 2301,
     "generation_time_ms": 34136,
-    "passed": "fail",
+    "passed": false,
     "rating_note": "missed the 4 day decsion because of the cut off and most importantly it invented somthing with remote work this looks due to the retrived chunks"
   },
   {
@@ -696,7 +696,7 @@
     "tokens_generated": 22,
     "retrieval_time_ms": 2187,
     "generation_time_ms": 18019,
-    "passed": "fail",
+    "passed": false,
     "rating_note": "Due to date conflict model retrive the informaiton from the first chunk need to add the date in the context to take the most recent source"
   },
   {
@@ -746,7 +746,7 @@
     "tokens_generated": 235,
     "retrieval_time_ms": 2244,
     "generation_time_ms": 45460,
-    "passed": "pass",
+    "passed": true,
     "rating_note": "all good with correct reasoning"
   },
   {
@@ -796,7 +796,7 @@
     "tokens_generated": 57,
     "retrieval_time_ms": 2205,
     "generation_time_ms": 1381859,
-    "passed": "pass",
+    "passed": true,
     "rating_note": "correctly refused and given correct reasoning"
   },
   {
@@ -846,7 +846,7 @@
     "tokens_generated": 53,
     "retrieval_time_ms": 8178,
     "generation_time_ms": 33194,
-    "passed": "Pass",
+    "passed": true,
     "rating_note": "Correctly refused"
   },
   {
@@ -896,7 +896,7 @@
     "tokens_generated": 54,
     "retrieval_time_ms": 2376,
     "generation_time_ms": 27444,
-    "passed": "pass",
+    "passed": true,
     "rating_note": "Correctly refused"
   }
 ]
