@@ -40,8 +40,8 @@
     "tokens_generated": 38,
     "retrieval_time_ms": 6404,
     "generation_time_ms": 3992,
-    "passed": null,
-    "rating_note": ""
+    "passed": true,
+    "rating_note": "all good still missed the in addition to public holidays part but that's fine since it answered the question"
   },
   {
     "id": "q02",
@@ -84,8 +84,8 @@
     "tokens_generated": 22,
     "retrieval_time_ms": 2149,
     "generation_time_ms": 1469,
-    "passed": null,
-    "rating_note": ""
+    "passed": true,
+    "rating_note": "all good"
   },
   {
     "id": "q03",
@@ -128,8 +128,8 @@
     "tokens_generated": 31,
     "retrieval_time_ms": 2278,
     "generation_time_ms": 1488,
-    "passed": null,
-    "rating_note": ""
+    "passed": true,
+    "rating_note": "all good"
   },
   {
     "id": "q04",
@@ -172,8 +172,8 @@
     "tokens_generated": 37,
     "retrieval_time_ms": 2276,
     "generation_time_ms": 1635,
-    "passed": null,
-    "rating_note": ""
+    "passed": true,
+    "rating_note": "all good"
   },
   {
     "id": "q05",
@@ -216,8 +216,8 @@
     "tokens_generated": 28,
     "retrieval_time_ms": 2245,
     "generation_time_ms": 1498,
-    "passed": null,
-    "rating_note": ""
+    "passed": true,
+    "rating_note": "all good"
   },
   {
     "id": "q06",
@@ -260,8 +260,8 @@
     "tokens_generated": 24,
     "retrieval_time_ms": 2232,
     "generation_time_ms": 1495,
-    "passed": null,
-    "rating_note": ""
+    "passed": true,
+    "rating_note": "all good"
   },
   {
     "id": "q07",
@@ -304,8 +304,8 @@
     "tokens_generated": 86,
     "retrieval_time_ms": 2147,
     "generation_time_ms": 1690,
-    "passed": null,
-    "rating_note": ""
+    "passed": true,
+    "rating_note": "all good"
   },
   {
     "id": "q08",
@@ -348,8 +348,8 @@
     "tokens_generated": 117,
     "retrieval_time_ms": 2183,
     "generation_time_ms": 1848,
-    "passed": null,
-    "rating_note": ""
+    "passed": true,
+    "rating_note": "all good"
   },
   {
     "id": "q09",
@@ -392,8 +392,8 @@
     "tokens_generated": 168,
     "retrieval_time_ms": 2167,
     "generation_time_ms": 3955,
-    "passed": null,
-    "rating_note": ""
+    "passed": true,
+    "rating_note": "all good"
   },
   {
     "id": "q10",
@@ -436,8 +436,8 @@
     "tokens_generated": 81,
     "retrieval_time_ms": 2148,
     "generation_time_ms": 1902,
-    "passed": null,
-    "rating_note": ""
+    "passed": true,
+    "rating_note": "all good"
   },
   {
     "id": "q11",
@@ -480,8 +480,8 @@
     "tokens_generated": 134,
     "retrieval_time_ms": 2208,
     "generation_time_ms": 1423,
-    "passed": null,
-    "rating_note": ""
+    "passed": true,
+    "rating_note": "all good"
   },
   {
     "id": "q12",
@@ -524,8 +524,8 @@
     "tokens_generated": 52,
     "retrieval_time_ms": 2233,
     "generation_time_ms": 1405,
-    "passed": null,
-    "rating_note": ""
+    "passed": true,
+    "rating_note": "all good"
   },
   {
     "id": "q13",
@@ -568,8 +568,8 @@
     "tokens_generated": 35,
     "retrieval_time_ms": 2156,
     "generation_time_ms": 1537,
-    "passed": null,
-    "rating_note": ""
+    "passed": true,
+    "rating_note": "all good"
   },
   {
     "id": "q14",
@@ -612,9 +612,10 @@
     "tokens_generated": 36,
     "retrieval_time_ms": 2208,
     "generation_time_ms": 1400,
-    "passed": null,
-    "rating_note": ""
+    "passed": false,
+    "rating_note": "same issue as our local model Only February 12 and no mention that the documents disagree"
   },
+  
   {
     "id": "q15",
     "question": "A Professional-tier customer had 99.2% uptime last month. What SLA credit are they entitled to?",
@@ -656,8 +657,8 @@
     "tokens_generated": 16,
     "retrieval_time_ms": 2261,
     "generation_time_ms": 1467,
-    "passed": null,
-    "rating_note": ""
+    "passed": true,
+    "rating_note": "all good"
   },
   {
     "id": "q16",
@@ -700,8 +701,8 @@
     "tokens_generated": 13,
     "retrieval_time_ms": 2245,
     "generation_time_ms": 2221,
-    "passed": null,
-    "rating_note": ""
+    "passed": true,
+    "rating_note": "all good"
   },
   {
     "id": "q17",
@@ -744,8 +745,8 @@
     "tokens_generated": 13,
     "retrieval_time_ms": 2205,
     "generation_time_ms": 3222,
-    "passed": null,
-    "rating_note": ""
+    "passed": true,
+    "rating_note": "all good"
   },
   {
     "id": "q18",
@@ -788,7 +789,7 @@
     "tokens_generated": 13,
     "retrieval_time_ms": 2138,
     "generation_time_ms": 1281,
-    "passed": null,
-    "rating_note": ""
+    "passed": true,
+    "rating_note": "all good"
   }
 ]
