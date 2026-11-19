@@ -3,3 +3,4 @@ chroma_db/
 parents.json
 __pycache__/
 .venv/
+.deepeval/
