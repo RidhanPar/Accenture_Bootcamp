@@ -1,5 +1,8 @@
 import os
 from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()
 
 LLM_BASE_URL = os.getenv("LLM_BASE_URL", "http://localhost:11434/v1")
 LLM_API_KEY = os.getenv("LLM_API_KEY", "ollama")
@@ -41,7 +44,7 @@ Context:
 {context}
 """
 
-TEMPERATURE = 0.3
+TEMPERATURE = os.getenv("TEMPERATURE", "0.3")
 REASONING_EFFORT = os.getenv("REASONING_EFFORT", "none")
 MAX_TOKENS = 1024
 TOKEN_LIMIT_PARAM = os.getenv("TOKEN_LIMIT_PARAM", "max_tokens")
@@ -55,4 +58,4 @@ COLLECTION_NAME = "corpus_v2"
 PARENTS_FILE = "parents.json"
 
 TEST_QUESTIONS_FILE = "test_questions.json"
-OUTPUT_FILE =  "pipeline_outputs.json"
+OUTPUT_FILE = os.getenv("OUTPUT_FILE", "pipeline_outputs.json")

@@ -29,7 +29,7 @@ def generate_answer(query: str, chunks: list[dict]) -> dict:
             {"role": "system", "content": config.SYSTEM_PROMPT.format(context=context)},
             {"role": "user", "content": query},
         ],
-        **({} if config.TEMPERATURE.lower() == "none" else {"temperature": float(config.TEMPERATURE)}),
+        temperature=config.TEMPERATURE,
         reasoning_effort=config.REASONING_EFFORT,
         **{config.TOKEN_LIMIT_PARAM: config.MAX_TOKENS},
     )

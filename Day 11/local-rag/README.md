@@ -93,7 +93,7 @@ local-rag/
 ├── benchmark_results.json     # Benchmark results with my ratings
 ├── pipeline_outputs_v1.json   # V1: fixed-size chunks, 2B model
 ├── pipeline_outputs_v2.json   # V2: parent-child chunks, 2B model
-├── pipeline_outputs.json      # V3 (final): parent-child chunks, 4B model, final prompt
+├── pipeline_outputs_v3.json      # V3 (final): parent-child chunks, 4B model, final prompt
 ├── decision_log.md            # My decisions and reasoning
 └── documents/                 # The five source PDFs
 ```
@@ -110,7 +110,7 @@ A question passes when the core answer is correct and nothing in it contradicts 
 
 All numbers come from files written by the code:
 - Model speed and quality: `benchmark_results.json`
-- Answer quality per question: `pipeline_outputs_v1.json`, `pipeline_outputs_v2.json` and `pipeline_outputs.json`
+- Answer quality per question: `pipeline_outputs_v1.json`, `pipeline_outputs_v2.json` and `pipeline_outputs_v3.json`
 
 The `quality_rating`, `passed` and `rating_note` fields were filled in by hand after reading each answer. The analysis and the comparison between versions are in `decision_log.md`.
 
