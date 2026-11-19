@@ -8,10 +8,10 @@ import config
 def build_context_blocks(chunks: list[dict]) -> list[str]:
     blocks = []
     for i, chunk in enumerate(chunks, start=1):
-        first, last = chunk["page_range"]
+        first, last = chunk.get("page_range") or (chunk.get("page"), chunk.get("page"))
         pages = f"p. {first}" if first == last else f"pp. {first}-{last}"
         blocks.append(
-            f"--- Context {i} | {chunk['source']} | {pages} | dated {chunk['date']} ---\n"
+            f"--- Context {i} | {chunk['source']} | {pages} | dated {chunk.get('date', 'unknown')} ---\n"
             f"{chunk['content'].strip()}"
         )
     return blocks
@@ -29,7 +29,7 @@ def generate_answer(query: str, chunks: list[dict]) -> dict:
             {"role": "system", "content": config.SYSTEM_PROMPT.format(context=context)},
             {"role": "user", "content": query},
         ],
-        temperature=config.TEMPERATURE,
+        **({} if config.TEMPERATURE.lower() == "none" else {"temperature": float(config.TEMPERATURE)}),
         reasoning_effort=config.REASONING_EFFORT,
         **{config.TOKEN_LIMIT_PARAM: config.MAX_TOKENS},
     )

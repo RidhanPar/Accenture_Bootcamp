@@ -1,0 +1,811 @@
+{
+  "summary": {
+    "label": "local",
+    "k": 4,
+    "questions_scored": 15,
+    "questions_skipped_unanswerable": 3,
+    "document_level": {
+      "hit": 1.0,
+      "mrr": 1.0,
+      "recall": 1.0
+    },
+    "page_level": {
+      "hit": 1.0,
+      "mrr": 0.967,
+      "recall": 1.0
+    }
+  },
+  "per_question": [
+    {
+      "id": "q01",
+      "expected": [
+        {
+          "source": "company_handbook.pdf",
+          "pages": [
+            5
+          ]
+        }
+      ],
+      "retrieved": [
+        {
+          "source": "company_handbook.pdf",
+          "pages": [
+            5,
+            6
+          ]
+        },
+        {
+          "source": "company_handbook.pdf",
+          "pages": [
+            4,
+            5
+          ]
+        },
+        {
+          "source": "meeting_notes.pdf",
+          "pages": [
+            6,
+            7
+          ]
+        },
+        {
+          "source": "company_handbook.pdf",
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ],
+      "document_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      },
+      "page_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "id": "q02",
+      "expected": [
+        {
+          "source": "company_handbook.pdf",
+          "pages": [
+            7
+          ]
+        }
+      ],
+      "retrieved": [
+        {
+          "source": "company_handbook.pdf",
+          "pages": [
+            6,
+            7
+          ]
+        },
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            8,
+            8
+          ]
+        },
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            13,
+            14
+          ]
+        },
+        {
+          "source": "meeting_notes.pdf",
+          "pages": [
+            4,
+            4
+          ]
+        }
+      ],
+      "document_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      },
+      "page_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "id": "q03",
+      "expected": [
+        {
+          "source": "security_policy.pdf",
+          "pages": [
+            6
+          ]
+        }
+      ],
+      "retrieved": [
+        {
+          "source": "security_policy.pdf",
+          "pages": [
+            6,
+            6
+          ]
+        },
+        {
+          "source": "security_policy.pdf",
+          "pages": [
+            5,
+            5
+          ]
+        },
+        {
+          "source": "security_policy.pdf",
+          "pages": [
+            8,
+            8
+          ]
+        },
+        {
+          "source": "security_policy.pdf",
+          "pages": [
+            7,
+            7
+          ]
+        }
+      ],
+      "document_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      },
+      "page_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "id": "q04",
+      "expected": [
+        {
+          "source": "quarterly_report_q1_2026.pdf",
+          "pages": [
+            1
+          ]
+        }
+      ],
+      "retrieved": [
+        {
+          "source": "quarterly_report_q1_2026.pdf",
+          "pages": [
+            1,
+            1
+          ]
+        },
+        {
+          "source": "company_handbook.pdf",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "source": "quarterly_report_q1_2026.pdf",
+          "pages": [
+            8,
+            8
+          ]
+        },
+        {
+          "source": "quarterly_report_q1_2026.pdf",
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ],
+      "document_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      },
+      "page_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "id": "q05",
+      "expected": [
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            16
+          ]
+        }
+      ],
+      "retrieved": [
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            16,
+            16
+          ]
+        },
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            15,
+            16
+          ]
+        },
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            28,
+            29
+          ]
+        },
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            13,
+            14
+          ]
+        }
+      ],
+      "document_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      },
+      "page_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "id": "q06",
+      "expected": [
+        {
+          "source": "meeting_notes.pdf",
+          "pages": [
+            5
+          ]
+        }
+      ],
+      "retrieved": [
+        {
+          "source": "meeting_notes.pdf",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "source": "meeting_notes.pdf",
+          "pages": [
+            5,
+            5
+          ]
+        },
+        {
+          "source": "meeting_notes.pdf",
+          "pages": [
+            9,
+            9
+          ]
+        },
+        {
+          "source": "quarterly_report_q1_2026.pdf",
+          "pages": [
+            4,
+            5
+          ]
+        }
+      ],
+      "document_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      },
+      "page_level": {
+        "first_relevant_rank": 2,
+        "reciprocal_rank": 0.5,
+        "recall": 1.0
+      }
+    },
+    {
+      "id": "q07",
+      "expected": [
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            13,
+            14
+          ]
+        }
+      ],
+      "retrieved": [
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            13,
+            14
+          ]
+        },
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            14,
+            14
+          ]
+        },
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            14,
+            14
+          ]
+        },
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            7,
+            8
+          ]
+        }
+      ],
+      "document_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      },
+      "page_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "id": "q08",
+      "expected": [
+        {
+          "source": "quarterly_report_q1_2026.pdf",
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "retrieved": [
+        {
+          "source": "quarterly_report_q1_2026.pdf",
+          "pages": [
+            10,
+            11
+          ]
+        },
+        {
+          "source": "quarterly_report_q1_2026.pdf",
+          "pages": [
+            1,
+            1
+          ]
+        },
+        {
+          "source": "quarterly_report_q1_2026.pdf",
+          "pages": [
+            4,
+            4
+          ]
+        },
+        {
+          "source": "quarterly_report_q1_2026.pdf",
+          "pages": [
+            4,
+            4
+          ]
+        }
+      ],
+      "document_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      },
+      "page_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "id": "q09",
+      "expected": [
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            9,
+            10
+          ]
+        }
+      ],
+      "retrieved": [
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            8,
+            9
+          ]
+        },
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            9,
+            9
+          ]
+        },
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            10,
+            10
+          ]
+        },
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            7,
+            8
+          ]
+        }
+      ],
+      "document_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      },
+      "page_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "id": "q10",
+      "expected": [
+        {
+          "source": "meeting_notes.pdf",
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "retrieved": [
+        {
+          "source": "meeting_notes.pdf",
+          "pages": [
+            8,
+            8
+          ]
+        },
+        {
+          "source": "quarterly_report_q1_2026.pdf",
+          "pages": [
+            12,
+            14
+          ]
+        },
+        {
+          "source": "company_handbook.pdf",
+          "pages": [
+            11,
+            12
+          ]
+        },
+        {
+          "source": "quarterly_report_q1_2026.pdf",
+          "pages": [
+            6,
+            7
+          ]
+        }
+      ],
+      "document_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      },
+      "page_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "id": "q11",
+      "expected": [
+        {
+          "source": "security_policy.pdf",
+          "pages": [
+            14
+          ]
+        },
+        {
+          "source": "company_handbook.pdf",
+          "pages": [
+            16
+          ]
+        }
+      ],
+      "retrieved": [
+        {
+          "source": "security_policy.pdf",
+          "pages": [
+            14,
+            14
+          ]
+        },
+        {
+          "source": "meeting_notes.pdf",
+          "pages": [
+            4,
+            5
+          ]
+        },
+        {
+          "source": "company_handbook.pdf",
+          "pages": [
+            15,
+            16
+          ]
+        },
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            27,
+            28
+          ]
+        }
+      ],
+      "document_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      },
+      "page_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "id": "q12",
+      "expected": [
+        {
+          "source": "company_handbook.pdf",
+          "pages": [
+            14
+          ]
+        },
+        {
+          "source": "meeting_notes.pdf",
+          "pages": [
+            7
+          ]
+        }
+      ],
+      "retrieved": [
+        {
+          "source": "company_handbook.pdf",
+          "pages": [
+            13,
+            14
+          ]
+        },
+        {
+          "source": "meeting_notes.pdf",
+          "pages": [
+            7,
+            8
+          ]
+        },
+        {
+          "source": "security_policy.pdf",
+          "pages": [
+            4,
+            4
+          ]
+        },
+        {
+          "source": "meeting_notes.pdf",
+          "pages": [
+            4,
+            5
+          ]
+        }
+      ],
+      "document_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      },
+      "page_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "id": "q13",
+      "expected": [
+        {
+          "source": "company_handbook.pdf",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "source": "meeting_notes.pdf",
+          "pages": [
+            7
+          ]
+        }
+      ],
+      "retrieved": [
+        {
+          "source": "meeting_notes.pdf",
+          "pages": [
+            6,
+            7
+          ]
+        },
+        {
+          "source": "company_handbook.pdf",
+          "pages": [
+            4,
+            5
+          ]
+        },
+        {
+          "source": "company_handbook.pdf",
+          "pages": [
+            7,
+            8
+          ]
+        },
+        {
+          "source": "company_handbook.pdf",
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ],
+      "document_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      },
+      "page_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "id": "q14",
+      "expected": [
+        {
+          "source": "meeting_notes.pdf",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "source": "quarterly_report_q1_2026.pdf",
+          "pages": [
+            5
+          ]
+        }
+      ],
+      "retrieved": [
+        {
+          "source": "quarterly_report_q1_2026.pdf",
+          "pages": [
+            5,
+            5
+          ]
+        },
+        {
+          "source": "meeting_notes.pdf",
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            17,
+            18
+          ]
+        }
+      ],
+      "document_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      },
+      "page_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "id": "q15",
+      "expected": [
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            14
+          ]
+        }
+      ],
+      "retrieved": [
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            14,
+            14
+          ]
+        },
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            13,
+            14
+          ]
+        },
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            14,
+            14
+          ]
+        },
+        {
+          "source": "product_guide.pdf",
+          "pages": [
+            11,
+            12
+          ]
+        }
+      ],
+      "document_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      },
+      "page_level": {
+        "first_relevant_rank": 1,
+        "reciprocal_rank": 1.0,
+        "recall": 1.0
+      }
+    }
+  ]
+}

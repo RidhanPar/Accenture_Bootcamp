@@ -9,7 +9,6 @@ EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "nomic-embed-text")
 EMBEDDING_API_KEY = os.getenv("EMBED_API_KEY", "ollama")
 EMBEDDING_BASE_URL = os.getenv("EMBEDDING_BASE_URL", "http://localhost:11434/v1")
 
-
 CHILD_CHUNK_SIZE = 400
 CHILD_CHUNK_OVERLAP = 50
 PARENT_MAX_CHARS = 2500
@@ -56,4 +55,4 @@ COLLECTION_NAME = "corpus_v2"
 PARENTS_FILE = "parents.json"
 
 TEST_QUESTIONS_FILE = "test_questions.json"
-OUTPUT_FILE = "pipeline_outputs.json"
+OUTPUT_FILE =  "pipeline_outputs.json"
