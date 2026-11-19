@@ -10,7 +10,7 @@ Judge gpt-5.4-mini; JUDGE_MODEL and EVAL_CONCURRENCY override the defaults.
 import json
 import os
 import sys
-
+import config
 # The whole class shares one judge deployment (250 requests per minute): wait and retry on 429
 # instead of recording an error. DeepEval reads these when it is imported.
 os.environ.setdefault("DEEPEVAL_RETRY_MAX_ATTEMPTS", "6")
@@ -26,16 +26,16 @@ from deepeval.metrics import (
 from deepeval.models import OpenAIModel
 from deepeval.test_case import LLMTestCase
 
-JUDGE_MODEL = os.environ.get("JUDGE_MODEL", "gpt-5.4-mini")
+
 
 
 def make_judge():
     # gpt-4.1 models reject reasoning_effort; for gpt-5.x DeepEval already leaves out temperature
-    extra = {} if JUDGE_MODEL.startswith("gpt-4") else {"reasoning_effort": "low"}
+    extra = {} if config.JUDGE_MODEL.startswith("gpt-4") else {"reasoning_effort": "low"}
     return OpenAIModel(
-        model=JUDGE_MODEL,
-        base_url=os.environ["JUDGE_BASE_URL"],
-        api_key=os.environ["AZURE_OPENAI_API_KEY"],
+        model=config.JUDGE_MODEL,
+        base_url=config.JUDGE_BASE_URL,
+        api_key=config.JUDGE_API_KEY,
         generation_kwargs=extra,
     )
 
