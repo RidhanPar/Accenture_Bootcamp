@@ -9,9 +9,6 @@ EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "nomic-embed-text")
 EMBEDDING_API_KEY = os.getenv("EMBED_API_KEY", "ollama")
 EMBEDDING_BASE_URL = os.getenv("EMBEDDING_BASE_URL", "http://localhost:11434/v1")
 
-JUDGE_API_KEY = os.getenv("JUDGE_API_KEY")
-JUDGE_BASE_URL = os.getenv("JUDGE_BASE_URL")
-JUDGE_MODEL = os.environ.get("JUDGE_MODEL", "gpt-5.4-mini")
 
 CHILD_CHUNK_SIZE = 400
 CHILD_CHUNK_OVERLAP = 50
