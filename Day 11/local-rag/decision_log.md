@@ -73,6 +73,6 @@ Starter 99.5% ~3 hours 39 minutes Calendar month\nProfessional 99.9% ~43 minutes
 
 
 ## If I Had More Time / Better Hardware
-- If I would have more time may be I tried experimenting with the something what we can do to reduce the latency without compramising quality because now quality is 16/18 and only q13 and q14 still fail, I have may have did some changes with the max parent characters and top K and see if this improves the speed and also add a GPU which make might influence the speed here.
+- If I would have more time may be I tried experimenting with the something what we can do to reduce the latency without compramising quality because now quality is 16/18 and only q13 and q14 still fail, I may have did some changes with the max parent characters and top K and see if this improves the speed but I guess it doesn't affected the speed much but the models did  so I will add a GPU which make might influence the speed here and check how this works.
 
 
