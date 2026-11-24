@@ -1,0 +1,147 @@
+{
+  "startup_name": "NightNest",
+  "one_liner": "NightNest transforms parents’ dreams into magical, personalized bedtime stories for kids, turning family imagination into a nightly ritual.",
+  "target_customers": [
+    "Parents of children ages 3–8 who want a calming, personalized bedtime routine and already use digital tools for parenting or journaling",
+    "Creative, story-oriented parents who enjoy documenting dreams, journaling, and making highly personalized content for their kids",
+    "Gift-giving family members or co-parents looking for an emotional, low-effort way to create a memorable bedtime experience"
+  ],
+  "market_insights": "The entertainment market is estimated at $210bn, growing 9.2% annually. Typical spend is $12/month. Key trends are generative-AI personalised content, niche communities over mass platforms, and offline-first experiences. Main risks are content moderation, subscription fatigue, and fast-moving copycats. Benchmarks: typical CAC is $18 and typical monthly churn is 9%.",
+  "competitors": [
+    {
+      "name": "SnoozeStory",
+      "price": "$7.99/month",
+      "weakness": "Generic stories, nothing from the family's own life",
+      "how_we_beat_them": "Turn a parent’s real dreams into deeply personal bedtime stories, making the content unique, emotionally resonant, and hard to copy with generic story libraries."
+    },
+    {
+      "name": "DreamLog",
+      "price": "Free / $3.99 pro",
+      "weakness": "Analysis only, no creative output",
+      "how_we_beat_them": "Bridge dream journaling and children’s storytelling in one workflow, so the product is not just reflective but creates a delightful family-facing output."
+    }
+  ],
+  "mvp_features": [
+    "Dream capture flow: simple text input for parents to enter or paste a dream, with optional voice-to-text",
+    "AI story generator: converts the dream into a short, age-appropriate bedtime story personalized for one child’s name, interests, and tone",
+    "Story safety filter: removes scary, confusing, or inappropriate elements and enforces kid-friendly language and length",
+    "Basic personalization profile: child name, age range, favorite characters/themes, and preferred story style",
+    "Story playback and saving: readable story page with save, revisit, and regenerate options",
+    "Share/export: lightweight sharing via link or copyable text for bedtime use"
+  ],
+  "pricing": "Single premium subscription at $5.99/month, positioned between DreamLog's $3.99 pro tier and SnoozeStory's $7.99/month. This keeps us close to competitor pricing while reflecting the higher perceived value of personalized family-based bedtime stories.",
+  "unit_economics": {
+    "price_per_month_usd": 5.99,
+    "cost_to_serve_per_month_usd": 1.2,
+    "cac_usd": 18.0,
+    "monthly_churn_pct": 9.0,
+    "ltv_usd": 53.22,
+    "ltv_to_cac": 2.96,
+    "cac_payback_months": 3.8,
+    "verdict": "Risky: profitable per customer, but growth will be expensive."
+  },
+  "marketing_campaign": {
+    "slogan": "Turn your child’s bedtime into a magical story—made from your family’s dreams.",
+    "launch_channels": [
+      "Instagram and Facebook parenting communities",
+      "TikTok short-form demos and bedtime story reels",
+      "Email campaigns to parenting, journaling, and gift-audience lists",
+      "App Store launch with family-friendly positioning"
+    ],
+    "social_posts": [
+      "Bedtime, but make it magical. 🌙 NightNest turns your dreams into personalized stories your child will ask for tomorrow night.",
+      "Too tired to read another book? Let NightNest create a calming bedtime story from your family’s imagination—in minutes.",
+      "The sweetest bedtime ritual starts here: personalized stories, less stress, more snuggles. NightNest is $5.99/month."
+    ]
+  },
+  "investor_pitch": [
+    "Problem: Parents of kids ages 3–8 want a calming bedtime ritual, but most options are either generic story apps or passive dream journals. Generic stories don’t feel personal enough to become a habit, and dream journals stop at reflection instead of creating something the family can share. NightNest fixes the gap: it turns something parents already have every night—dreams—into a repeatable, emotionally resonant ritual their child asks for again.",
+    "Solution: NightNest turns a parent’s dream into a kid-safe, personalized bedtime story in under a minute. A parent types or speaks the dream, adds the child’s name, age, and interests, and NightNest generates a warm story with safety filtering, save/replay, and share/export. Sample story: ‘One quiet night, in a moonlit garden behind the house, a parent walked softly between the flowers. Little silver rabbits hopped along the path, and a kind owl wearing a red scarf gave a gentle nod... The child came too, wearing the softest pajamas... They sat together on a cozy bench and watched the stars blink on and off.’ The moat is not just AI personalization—it’s a family-owned input loop that makes each story uniquely theirs and hard to replace with a generic library.",
+    "Market: We are not selling into the entire $210B entertainment market on day one; we are starting with a narrow, reachable wedge: parents who already use digital tools for parenting or journaling and want screen-free bedtime help. Category tailwinds support this wedge: generative-AI personalized content, niche communities over mass platforms, and offline-first family rituals. The willingness to pay is real at roughly $12/month for premium bedtime content, and our differentiated promise is emotional ownership—stories pulled from the family’s own dreams, not assembled from a shared catalog.",
+    "Product: In the first 90 days, we ship one tight loop: dream capture by text or voice, child profile personalization, kid-safe story generation, safety filtering, and save/replay. We are not building a broad content platform. The single repeatable use case is bedtime: parents use NightNest to create tonight’s story, then revisit favorites as part of a nightly ritual. Success metric: families return multiple nights per week without needing a new feature or a new content format. That is the proof this is a habit, not a novelty.",
+    "Business model: Premium subscription at $5.99/month, positioned between DreamLog’s $3.99 pro tier and SnoozeStory’s $7.99/month. CFO numbers at current assumptions: $1.20 monthly cost to serve, $18 CAC, 9% monthly churn, $4.79 gross margin per customer per month, $53.22 LTV, and 2.96 LTV/CAC. That was the concern—and we addressed it. By tightening acquisition to lower-CAC parenting communities and improving paid conversion, we can get CAC to $16 with the same price, which lifts LTV/CAC to 3.33 and CAC payback to 3.3 months. If we sharpen acquisition further to $14 CAC, LTV/CAC goes to 3.8 and payback to 2.9 months. The unit economics work once we stop buying broad consumer attention and focus on a narrow channel with strong referral potential.",
+    "Ask: We’re raising to prove three things in 90 days: first, that parents come back weekly for bedtime; second, that one sharp acquisition channel can deliver CAC at or below $16; and third, that family-specific dream stories create a defensible ritual, not a one-time gimmick. The first 90-day plan is simple: launch the dream-to-story flow, target one audience with one channel, and measure retention on repeated bedtime use. We’re building the emotional bedtime layer for modern families—a new category with real subscription economics, not just another AI story app."
+  ],
+  "investor_feedback": [
+    {
+      "round": 1,
+      "average_score": 7.0,
+      "scores": [
+        {
+          "investor": "Ada Okafor",
+          "score": 6,
+          "verdict": "maybe",
+          "feedback": "Show me the numbers: the market is big on paper, but the actual wedge is still fuzzy and could easily be a nice-to-have rather than a must-have. The model is directionally believable, but LTV/CAC at 2.96 is not yet where I want it, and the $18 CAC plus 9% monthly churn means you need a stronger retention thesis and a clearer low-cost acquisition loop. What’s good is the tight MVP, clear monetization, and a product that could create a real family ritual; what must change is proving this is more than a novelty by showing why parents will pay and stick, and how you’ll acquire them without burning too much cash."
+        },
+        {
+          "investor": "Rex Moon",
+          "score": 8,
+          "verdict": "maybe",
+          "feedback": "Will this change how people live? NightNest has the kind of category-energy I like: it turns a private moment into a family ritual, and the story arc is emotionally sharp rather than gimmicky. The MVP is focused, the pricing is sane, and the model is close to working; the big risk is whether this becomes a must-have habit or just a delightful one-off. To earn a stronger score, you need a clearer proof plan for repeat usage, a sharper wedge than ‘personalized story app,’ and a more believable acquisition engine than paid parenting traffic."
+        },
+        {
+          "investor": "Priya Shah",
+          "score": 7,
+          "verdict": "maybe",
+          "feedback": "This is a focused MVP with a clear ritual and a believable first use case, and I like that you’ve resisted feature bloat. The unit economics are directionally reasonable, but the CAC and 9% monthly churn make the model too fragile to score an 8+, especially without a sharper, more specific go-to-market plan for acquiring parents in the first 90 days. What ships in the first 90 days? Show me a narrow channel, a concrete proof point for repeat usage, and a stronger reason this is more than a nice demo."
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "average_score": 6.7,
+      "scores": [
+        {
+          "investor": "Ada Okafor",
+          "score": 6,
+          "verdict": "maybe",
+          "feedback": "The wedge is emotionally compelling and the product has a clear, repeatable use case, but the numbers are not yet investor-grade: a 2.96 LTV/CAC is below the bar you set, and the pitch relies on optimistic retention and referral assumptions without proof. I like that you’re not pretending the $210B market is the real wedge, but you still need sharper evidence that parents will pay, come back weekly, and that CAC can fall enough to get LTV/CAC comfortably above 3 with a real moat beyond personalization. Show me the numbers."
+        },
+        {
+          "investor": "Rex Moon",
+          "score": 7,
+          "verdict": "maybe",
+          "feedback": "Will this change how people live? The vision is emotionally strong: turning parents’ dreams into a repeatable bedtime ritual is a fresh, ownable angle, and the sample experience feels personal rather than generic. But the pitch is still a little too close to 'AI story app' unless you prove this is a habit-forming family ritual with unmistakable delight, not just clever personalization. The unit economics are borderline, the CAC assumption feels optimistic for a consumer app, and the differentiation story needs sharper proof that families will return often enough to justify the subscription."
+        },
+        {
+          "investor": "Priya Shah",
+          "score": 7,
+          "verdict": "maybe",
+          "feedback": "The wedge is emotionally compelling and the MVP is tight: dream capture, personalized story generation, safety, and replay are enough to test whether this becomes a bedtime ritual. I like that you have a clear 90-day ship plan and you’re not pretending to have retention data yet. What holds me back from an 8+ is the go-to-market: ‘parenting creators, communities, and referrals’ is still broad, and the model is a bit too optimistic for a new consumer subscription with a sub-3 LTV/CAC. What ships in the first 90 days? Show one sharp acquisition channel, one repeatable use case, and evidence that families come back without needing novelty every night."
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "average_score": 7.0,
+      "scores": [
+        {
+          "investor": "Ada Okafor",
+          "score": 7,
+          "verdict": "maybe",
+          "feedback": "Show me the numbers. The pitch has a clear wedge, a believable product loop, and unit economics that are close to investable, with a plausible path from 2.96x LTV/CAC to above 3x if CAC truly drops into the $14–16 range. But the market is still narrow, the moat claim is more narrative than proven, and the 9% monthly churn assumption feels hand-wavy for a consumer subscription unless you show strong habit formation and referral dynamics post-launch. "
+        },
+        {
+          "investor": "Rex Moon",
+          "score": 7,
+          "verdict": "maybe",
+          "feedback": "This has a real hook: turning a family’s dreams into a personalized bedtime ritual is emotionally sticky and category-creating if it works. The product is focused, the wedge is coherent, and the unit economics are at least directionally sane for a narrow subscription business. What holds it back from an 8+ is that it still risks feeling like a clever AI content toy unless you prove the ritual is truly recurring and not just novelty-driven; the moat and retention thesis are more asserted than demonstrated. Also, the name is soft—NightNest sounds pleasant, but it doesn’t fully own the moonshot. Will this change how people live? Maybe—but only if you can show families actually build a nightly habit around it. "
+        },
+        {
+          "investor": "Priya Shah",
+          "score": 7,
+          "verdict": "maybe",
+          "feedback": "This is a genuinely tight MVP with a believable first use case, and I like that you’ve limited the first 90 days to one loop, one channel, and one metric. The biggest gap is that the target customer is still a bit fuzzy—'parents who use digital tools' is not sharp enough—and the retention assumption is doing too much work for a pre-launch pitch. The unit economics are directionally credible, but I’d want a more concrete acquisition plan and a clearer proof point for why this becomes a habit instead of a cute novelty."
+        }
+      ]
+    }
+  ],
+  "sample_story": {
+    "parent_dream": "I dreamed I was walking through a moonlit garden behind our house. Tiny silver rabbits hopped between the flowers, and a friendly old owl in a red scarf pointed me toward a glowing door in a tree. When I opened it, I found a little room full of sleepy stars and a teapot that poured warm milk and honey. My child was there too, wearing soft pajamas, and we sat on a bench while the stars blinked like lamps.",
+    "bedtime_story": "One quiet night, in a moonlit garden behind the house, a parent walked softly between the flowers. Little silver rabbits hopped along the path, and a kind owl wearing a red scarf gave a gentle nod, as if he knew a secret. The owl pointed to a glowing door in a tree trunk. When the door opened, it led to a tiny room filled with sleepy stars. In the middle sat a cheerful teapot that poured warm milk and honey into little cups. Best of all, the child came too, wearing the softest pajamas. They sat together on a cozy bench and watched the stars blink on and off, like friendly little lamps. The garden was calm, warm, and full of bedtime magic."
+  },
+  "names_tried": [
+    "DreamSprout — Pick another name.",
+    "NightNest — Looks usable!"
+  ]
+}

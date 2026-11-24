@@ -1,0 +1,147 @@
+{
+  "startup_name": "MoonMurmur",
+  "one_liner": "MoonMurmur turns parents’ dreams into magical, personalized bedtime stories that feel like they were made just for their child.",
+  "target_customers": [
+    "Parents of children ages 3–8 who want a calming bedtime routine and enjoy personalized storytelling",
+    "Gifted/engaged parents who already journal, use parenting apps, or actively seek screen-light family activities",
+    "Parents interested in gentle AI tools for creativity but who need simple, safe, and privacy-conscious experiences"
+  ],
+  "market_insights": "Entertainment is a $210bn market with 9.2% annual growth. Average spend is $12 per month, which fits a low-friction consumer subscription. The biggest current tailwinds are generative-AI personalised content, niche communities over mass platforms, and offline-first experiences. Key risks are content moderation, subscription fatigue, and fast-moving copycats. Benchmarks suggest a typical CAC of $18 and monthly churn of 9%, so retention and word-of-mouth will matter a lot.",
+  "competitors": [
+    {
+      "name": "SnoozeStory",
+      "price": "$7.99/month",
+      "weakness": "Generic stories, nothing from the family's own life",
+      "how_we_beat_them": "We can win by turning real parental dreams into stories, making the content emotionally unique, highly personal, and harder to copy than generic story generation."
+    },
+    {
+      "name": "DreamLog",
+      "price": "Free / $3.99 pro",
+      "weakness": "Analysis only, no creative output",
+      "how_we_beat_them": "We can beat them by transforming dream journaling into an immediate family benefit: a bedtime story for kids, not just self-reflection."
+    }
+  ],
+  "mvp_features": [
+    "Dream capture flow: a simple daily prompt for parents to type or dictate a dream in under 2 minutes",
+    "AI story generation: convert the dream into a short personalized bedtime story tailored to the child’s name, age, and preferred tone",
+    "Child profile setup: basic fields for child name, age, favorite characters/themes, and bedtime preferences",
+    "Story review/edit screen: let parents quickly edit, shorten, or regenerate the story before sharing",
+    "Read-aloud mode: clean, distraction-free story view optimized for bedtime use on mobile",
+    "Story library: save recent dreams and generated stories so parents can revisit favorites or reuse them later"
+  ],
+  "pricing": "Monthly subscription at $5.99/month, positioned between DreamLog's $3.99 pro and SnoozeStory's $7.99/month, with enough room to reflect the premium, highly personal bedtime-story experience.",
+  "unit_economics": {
+    "price_per_month_usd": 5.99,
+    "cost_to_serve_per_month_usd": 0.65,
+    "cac_usd": 18.0,
+    "monthly_churn_pct": 9.0,
+    "ltv_usd": 59.33,
+    "ltv_to_cac": 3.3,
+    "cac_payback_months": 3.4,
+    "verdict": "Healthy: investors like LTV/CAC >= 3."
+  },
+  "marketing_campaign": {
+    "slogan": "Turn bedtime into their favorite story—personalized from your child’s world.",
+    "launch_channels": [
+      "Instagram and Facebook parenting groups",
+      "Pinterest bedtime routine boards",
+      "Product Hunt",
+      "Email newsletters to parenting and family audiences"
+    ],
+    "social_posts": [
+      "Bedtime’s easier when the story is about *them*. MoonMurmur turns your child’s world into a calming, personalized bedtime adventure—made for tired parents and little dreamers.",
+      "Looking for a screen-light bedtime routine? MoonMurmur creates magical stories from your child’s dreams, interests, and everyday life. Gentle, private, and priced at $5.99/month.",
+      "The hardest part of bedtime is getting them to settle. The sweetest part? Hearing their own personalized story. Meet MoonMurmur—where bedtime feels calm, cozy, and wonderfully theirs."
+    ]
+  },
+  "investor_pitch": [
+    "Problem: Bedtime is a nightly battle for a huge, reachable wedge: parents of children ages 3–8 who already pay for calming routines, parenting apps, audiobooks, and kid-safe subscriptions. They want screen-light, repeatable rituals—but most bedtime content is generic, and most “personalized” content stops at a child’s name. The pain is recurring, the behavior is habitual, and the spend is already there: our target household is used to paying about $12/month for family entertainment tools, so a $5.99 subscription fits the category and the wallet.",
+    "Solution: MoonMurmur turns parents’ own dreams into magical, personalized bedtime stories that feel emotionally one-of-one. A parent types or дикtates a dream in under 2 minutes, adds their child’s name, age, and bedtime tone, and gets a safe story they can review, edit, and read aloud instantly. Example: Leo and Mama wander into a moonlit garden, meet a rabbit who leads them to a cozy room, and learn that “each star is a wish taking a nap.” That matters because it’s not generic AI output—it’s family-specific content anchored in the parent’s own imagination, which is much harder to copy than a prompt template.",
+    "Market: We’re not trying to own all entertainment; we’re capturing a crisp subscription wedge inside a $210B market growing 9.2% annually. Our beachhead is parents already buying for bedtime: families with 3–8 year olds, parents who journal or use parenting apps, and screen-light households looking for a calmer nightly ritual. The spend capture path is simple: convert parents already shopping for bedtime solutions with a low-friction subscription, then expand through sibling use, saved story libraries, and repeat nightly use. Our target is the recurring ritual layer of family entertainment, not one-off story generation.",
+    "Product: The first 90 days ship a tight MVP designed to prove habit, not novelty: 1) dream capture by text or voice in under 2 minutes, 2) AI story generation personalized by child name, age, and tone, 3) child profile setup, 4) parent review/edit/regenerate, 5) distraction-free read-aloud mode, and 6) a story library. We will measure three proof points: weekly repeat generation, paid conversion from engaged parents, and whether stories are shared or reread enough to become part of the bedtime routine. If the magic doesn’t survive week 2, we know fast and iterate on quality, not features.",
+    "Business model: MoonMurmur is $5.99/month, positioned between DreamLog’s $3.99 pro and SnoozeStory’s $7.99/month. CFO-backed assumptions: $0.65/month cost to serve, $18 CAC, and 9% monthly churn. That yields gross margin of roughly 89%, LTV of $59.33, LTV/CAC of 3.3x, and CAC payback in 3.4 months. If an investor pushes on CAC, we can test tighter channel targeting toward parents already paying for bedtime tools and use unit economics tools to pressure-test pricing or lower CAC. Our moat comes from a harder-to-copy input: the parent’s own dream plus the child’s profile plus a growing story library that improves retention and personalization over time.",
+    "Ask: We’re raising to prove that MoonMurmur is a repeat bedtime ritual, not a novelty. Over the next 90 days, we will launch the MVP, validate willingness to pay with early parents, and prove acquisition through specific channels: parenting creators, parenting newsletters, app-store intent around bedtime and sleep, and direct communities where parents already buy family rituals. Success means: parents come back weekly, pay for the subscription, and share stories because the product genuinely changes bedtime. We’re looking for investors who want a consumer habit with strong unit economics, a focused wedge, and a product that can create a new category in family entertainment."
+  ],
+  "investor_feedback": [
+    {
+      "round": 1,
+      "average_score": 5.0,
+      "scores": [
+        {
+          "investor": "Ada Okafor",
+          "score": 4,
+          "verdict": "pass",
+          "feedback": "The idea is emotionally appealing, but this pitch is all aspiration and no numbers. I don’t see market size, a clear monetization model, CAC/LTV assumptions, or evidence that the personalization engine creates a defensible moat beyond nice branding. Show me the numbers: what does the MVP cost to acquire a parent, what paid conversion do you expect, and how does this become a big market with healthy unit economics?"
+        },
+        {
+          "investor": "Rex Moon",
+          "score": 7,
+          "verdict": "maybe",
+          "feedback": "MoonMurmur has a strong category-shaped idea: a modern bedtime ritual with personalization and word-of-mouth potential, which is exactly the kind of behavior-changing product I like. The problem is the pitch is still all aspiration and very light on proof — I want to see a sharper explanation of why this becomes a daily habit, what the MVP actually does, and the unit economics behind content-led acquisition and referrals. If you can show a believable model for paid conversion and a first cohort that genuinely comes back because the experience feels magical, this could become invest-worthy."
+        },
+        {
+          "investor": "Priya Shah",
+          "score": 4,
+          "verdict": "pass",
+          "feedback": "The vision is clear, but the ask is still too abstract for a pre-launch Demo Day: I don’t see a concrete MVP scope, a sharply defined first customer segment, or the actual milestones and numbers behind the 90-day plan. Content-led acquisition and referral loops sound plausible, but you haven’t shown a credible go-to-market sequence, how you’ll validate paid conversion, or what success looks like week by week. What ships in the first 90 days?"
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "average_score": 7.3,
+      "scores": [
+        {
+          "investor": "Ada Okafor",
+          "score": 7,
+          "verdict": "maybe",
+          "feedback": "Show me the numbers. The wedge is focused and emotionally compelling, and the unit economics model clears my threshold on paper with LTV/CAC at 3.3x and a sane $5.99 price point. But the moat is still more vibe than proof, the TAM slide leans broad without showing a crisp spend capture path, and CAC/ churn assumptions are unvalidated—before I’d call this an investable 8+, I’d want stronger evidence that parents will use this as a repeat ritual, not a novelty."
+        },
+        {
+          "investor": "Rex Moon",
+          "score": 8,
+          "verdict": "invest",
+          "feedback": "Will this change how people live? Yes—if you make bedtime a ritual, not a screen habit, this could become a new category in family wellness/entertainment. The problem is painfully real, the emotional angle is strong, and the product has a memorable hook: parents’ own dreams turned into soothing stories, which is far more ownable than generic AI bedtime content. What must change: you need to prove the magic survives beyond novelty, and your GTM must be sharper than 'content-led plus referrals'—show exactly which channels produce parents who already pay for bedtime tools, and why this beats faster copycats."
+        },
+        {
+          "investor": "Priya Shah",
+          "score": 7,
+          "verdict": "maybe",
+          "feedback": "The wedge is clear and the MVP is disciplined: dream-to-bedtime-story for parents of 3–8 year olds who already want a calming ritual. The 90-day plan is sensible, and the unit economics are directionally attractive, but the pitch still needs harder proof on willingness to pay, how you’ll reliably get parents into the funnel, and whether the story quality is consistently magical enough to become a habit rather than a novelty. "
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "average_score": 7.3,
+      "scores": [
+        {
+          "investor": "Ada Okafor",
+          "score": 7,
+          "verdict": "maybe",
+          "feedback": "The wedge is understandable and the willingness-to-pay argument is plausible, with a clean subscription price and a real habit loop if the product delivers. Show me the numbers: the CAC, churn, and LTV math is directionally attractive, but it rests on a lot of assumed precision for a pre-launch product, and the moat feels softer than claimed because AI-generated personalization can be copied. To get to an 8+, I’d want sharper evidence on how you’ll acquire parents cheaply, why this is meaningfully different from other kid bedtime apps, and a concrete plan to prove repeat usage after launch without hand-wavy retention claims."
+        },
+        {
+          "investor": "Rex Moon",
+          "score": 8,
+          "verdict": "invest",
+          "feedback": "This has the bones of a real category-creator: a vivid emotional wedge, a clear habit loop, and a product people could talk about because it feels personal rather than merely personalized. The unit economics are believable for a subscription consumer app, and the 90-day plan is focused on proving ritual, not vanity metrics. What must change: I need sharper evidence that parents will actually type in dreams nightly instead of treating this as a delightful one-off, and the moat needs to be more than “inputs plus a library” because that’s easy to imitate once the concept is validated."
+        },
+        {
+          "investor": "Priya Shah",
+          "score": 7,
+          "verdict": "maybe",
+          "feedback": "You have a clear wedge, a sensible price point, and a tight first-90-days MVP, which is exactly the right shape for an early consumer subscription pitch. The unit economics are directionally credible, but I’d want to see how you’ll actually acquire parents at an $18 CAC and whether the dream-to-story magic is strong enough to become a repeat bedtime ritual, not just a cute one-off. What ships in the first 90 days? If it’s really just the core loop, a clean parent review flow, and a focused channel test with proof of paid demand, then this is fundable to the next milestone. "
+        }
+      ]
+    }
+  ],
+  "sample_story": {
+    "parent_dream": "I dreamed that I was walking through a moonlit garden with my child. Tiny lanterns floated above the flowers, and a friendly rabbit in a little vest showed us a hidden path. We followed it to a round hill where a small door opened in the grass. Inside was a cozy room with soft pillows, warm tea, and a window looking up at the stars. The rabbit said every star was a wish taking a nap. My child and I each held a star for a moment, and it glowed like a tiny nightlight. Then we thanked the rabbit, waved to the garden, and walked home along a path of glowing stones.",
+    "bedtime_story": "One quiet night, Leo and Mama wandered into a moonlit garden. The flowers wore tiny silver hats, and little lanterns floated gently above them like fireflies. A friendly rabbit in a vest appeared beside a soft green path. He bowed and led them to a grassy hill with a tiny door tucked right in the ground.\n\nInside was a cozy room with fluffy pillows, a warm cup of tea, and a window that looked out at the stars. “Each star is a wish taking a nap,” said the rabbit with a smile.\n\nLeo picked one shining star and held it carefully. It glowed like a tiny nightlight in his hands. Mama picked one too.\n\nThen they thanked the rabbit, waved goodnight to the garden, and followed the glowing stones all the way home. When Leo climbed into bed, the moon peeped through the window, and the whole room felt calm, warm, and safe."
+  },
+  "names_tried": [
+    "DreamSprout — Pick another name.",
+    "MoonMurmur — Looks usable!"
+  ]
+}
