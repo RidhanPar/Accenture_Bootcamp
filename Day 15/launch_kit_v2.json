@@ -1,0 +1,138 @@
+{
+  "startup_name": "StoryLoom",
+  "one_liner": "StoryLoom turns parents’ dreams into magical, personalized bedtime stories that help kids drift off feeling seen, soothed, and inspired.",
+  "target_customers": [
+    "Parents of children aged 3-8 who want a calming, creative bedtime routine and enjoy sharing stories with their kids",
+    "Busy working parents who already keep notes in journaling or wellness apps and want a fast, low-effort way to turn their own dreams into something meaningful for their family",
+    "Story-loving caregivers such as grandparents or co-parents who want a personalized, recurring bedtime activity without needing to invent stories from scratch"
+  ],
+  "market_insights": "Entertainment is a $210bn market with 9.2% annual growth. Average spend is $12/month, which fits a low-friction consumer subscription. The main tailwinds are generative-AI personalised content, niche communities over mass platforms, and offline-first experiences. Key risks are content moderation, subscription fatigue, and fast-moving copycats. Benchmark economics suggest typical CAC is $18 and typical monthly churn is 9%.",
+  "competitors": [
+    "SnoozeStory — $7.99/month. Weakness: generic stories with nothing from the family’s own life. How we beat them: turn parents’ actual dreams into unique bedtime stories, making the product feel personal, emotionally sticky, and harder to copy with a generic story generator.",
+    "DreamLog — Free / $3.99 pro. Weakness: analysis only, no creative output. How we beat them: convert dream journaling into a child-facing story experience, so users get immediate delight and a clear family use case instead of passive tracking.",
+    "SnoozeStory — $7.99/month. Weakness: generic stories with nothing from the family’s own life. How we beat them: differentiate with memory, personalization, and parent-to-child co-creation; build repeat usage around nightly rituals rather than one-off story generation."
+  ],
+  "mvp_features": [
+    "Dream capture form with a very short, guided prompt flow to record the dream in under 2 minutes",
+    "AI story generator that transforms the dream into a child-friendly bedtime story personalized by child name, age, tone, and length",
+    "Story safety and quality filters to keep content age-appropriate, non-scary, and bedtime-friendly",
+    "Save and revisit generated stories in a simple library so parents can reuse favorites",
+    "Basic personalization settings for the child and household, including name, age, favorite themes, and preferred story style",
+    "Share/export option to read the story aloud on device or send as text/PDF for offline bedtime use"
+  ],
+  "pricing": "Premium subscription at $6.99/month, positioned between DreamLog’s $3.99 pro tier and SnoozeStory’s $7.99/month, with enough room to reflect the personalized parent-dream-to-bedtime-story experience.",
+  "unit_economics": {
+    "price_per_month_usd": 6.99,
+    "cost_to_serve_per_month_usd": 1.2,
+    "cac_usd": 18.0,
+    "monthly_churn_pct": 9.0,
+    "ltv_usd": 64.33,
+    "ltv_to_cac": 3.57,
+    "cac_payback_months": 3.1,
+    "verdict": "Healthy: investors like LTV/CAC >= 3."
+  },
+  "marketing_campaign": {
+    "slogan": "Turn your dreams into bedtime magic.",
+    "launch_channels": [
+      "Instagram Reels and Stories",
+      "Parenting newsletters and blogs",
+      "App Store / Google Play launch promotion",
+      "Partner outreach to journaling and wellness app communities"
+    ],
+    "social_posts": [
+      "Bedtime, but make it magical. StoryLoom turns your dream notes into personalized stories your kids will love—and you’ll actually look forward to reading.",
+      "Too tired to invent a new bedtime story? StoryLoom takes the dreams you already have and turns them into calm, cozy, one-of-a-kind stories for ages 3–8.",
+      "A smoother bedtime routine starts with one tap. Save a dream, get a story, and help your child drift off feeling seen, soothed, and inspired."
+    ]
+  },
+  "investor_pitch": [
+    "Problem: Bedtime is one of the few daily rituals parents actually care about, but they’re forced to choose between generic storybooks and the burden of inventing something calming every night. Existing dream apps stop at journaling, so there’s no family payoff and no reason to come back after the novelty wears off. Our beachhead is specific: parents of kids 3–8 who want a repeatable bedtime ritual, not just “another AI app.”",
+    "Solution: StoryLoom turns a parent’s dream into a magical, child-safe bedtime story in under 2 minutes. Sample story: in a moonlit garden, a polite rabbit in a blue vest guides you and your parent past fireflies, silver leaves, and glowing peaches to a quiet pond, ending with a cozy ride home under the moon. What makes this sticky is not just personalization—it’s co-creation from the parent’s own life, which gives the story emotional meaning, repeat value, and a nightly ritual parents will actually remember to use.",
+    "Market: We are not selling into the full $210B entertainment market on day one; we are starting with a narrow, high-intent wedge inside it: parents of kids 3–8, especially working parents and story-loving caregivers. Consumer spend in this category averages about $12/month, and our $6.99 subscription sits comfortably below the benchmark while leaving room for premium personalization. The real go-to-market test is not market size rhetoric; it’s whether we can win one acquisition channel cheaply and drive consecutive-night usage in a small cohort before scaling.",
+    "Product: In the first 90 days, we ship exactly five things: 1) a dream-capture flow that takes under 2 minutes, 2) AI story generation personalized by child name, age, tone, and length, 3) safety and quality filters for bedtime-appropriate content, 4) a library of saved stories for repeat bedtime use, and 5) export/share for offline reading. The validation target is concrete: a small cohort of parents generating stories on multiple consecutive nights and returning weekly, proving this is a ritual, not a one-time novelty. Defensibility comes from a family-memory graph: each story improves future personalization, creates saved household content, and deepens the emotional archive that generic story generators can’t replicate.",
+    "Business model: Premium subscription at $6.99/month. CFO assumptions: $1.20/month cost to serve, $18 CAC, 9% monthly churn. That produces 83% gross margin, $64.33 LTV, 3.57x LTV/CAC, and 3.1-month CAC payback. To address the CAC concern directly: we will start with low-cost acquisition through parent communities, creator-led bedtime content, and organic sharing of exported stories, not broad paid ads. If we need to pressure-test the model, we can improve payback with either a lower CAC or a slightly higher price; the current structure is already healthy enough to support venture-scale experimentation once retention is proven.",
+    "Ask: We’re raising to prove three things: 1) parents use StoryLoom on consecutive nights, 2) one acquisition channel can bring parents in cheaply enough to sustain growth, and 3) our family-memory loop creates defensibility beyond generic AI personalization. We want investors who believe consumer products become companies when they change a recurring ritual. Our goal is simple: become the bedtime habit families trust, and turn your dreams into bedtime magic."
+  ],
+  "investor_feedback": [
+    {
+      "round": 1,
+      "average_score": 6.7,
+      "scores": [
+        {
+          "investor": "Ada Okafor",
+          "score": 6,
+          "verdict": "maybe",
+          "feedback": "The concept is emotionally compelling and the product is easy to understand: turn a child’s bedtime into a personalized ritual. The model is directionally attractive at $6.99/month with claimed LTV/CAC above 3, but the numbers feel too neat and I’d want to see the assumptions behind churn, CAC, and cost to serve before I trust them. The market framing is still too broad and the moat is more branding than defensibility right now; show me a sharper acquisition plan, clearer proof that families will repeat nightly, and how you’ll defend against AI copycats."
+        },
+        {
+          "investor": "Rex Moon",
+          "score": 7,
+          "verdict": "maybe",
+          "feedback": "The vision has real sparkle: turning a parent’s dream into a child’s bedtime ritual is emotionally vivid, memorable, and could become a new category if it truly feels magical. The MVP is focused, the GTM is reasonable, and the unit economics are at least coherent, but the pitch still leans on novelty and subscription math more than a defensible long-term wedge. To earn an 8+, I’d need a sharper proof plan for why this becomes a nightly habit rather than a one-time delight, plus a stronger moat than 'personalization' and a clearer path to stand out against fast-follow AI copycats. "
+        },
+        {
+          "investor": "Priya Shah",
+          "score": 7,
+          "verdict": "maybe",
+          "feedback": "The MVP is tight and the wedge is clear: a fast, emotionally resonant bedtime story generator for busy parents. The unit economics are plausible on paper, and I like that you’re aiming to validate repeat nightly use in the first 90 days rather than pretending you already have retention. What ships in the first 90 days is still a bit fuzzy on GTM: your target user is broad, the acquisition plan is light, and the moat sounds more like a nice story than a proof point until you show families actually come back. Tighten the ICP, name the first channel, and show me exactly how you’ll prove habitual use after launch."
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "average_score": 7.0,
+      "scores": [
+        {
+          "investor": "Ada Okafor",
+          "score": 7,
+          "verdict": "maybe",
+          "feedback": "The product is emotionally resonant, the wedge is clear, and I like that you defined a tight 90-day MVP with a believable habit loop. The unit economics are directionally attractive, but the model still feels a bit hand-wavy: CAC of $18 on a niche consumer app, 9% monthly churn pre-launch, and a $210B market reference do not yet prove a venture-scale path. Show me the numbers on how you’ll acquire parents cheaply enough, why this isn’t just a cute novelty, and what defensibility you get beyond personalization and saved stories."
+        },
+        {
+          "investor": "Rex Moon",
+          "score": 7,
+          "verdict": "maybe",
+          "feedback": "Will this change how people live? Potentially yes, because you’re not selling another generic AI story generator—you’re aiming at a real nightly family ritual, which is a stronger behavioral wedge and a more memorable category. The story is vivid, the ICP is focused, and the 90-day plan is concrete; I also like that you’re thinking about family memory as the moat, not just model quality. But the model has some hand-wavy parts: $18 CAC feels optimistic for a consumer subscription without a proven channel, and 9% monthly churn could be brutal if the novelty wears off. I’d move to invest only if you can show sharper evidence that parents will repeat this on consecutive nights and that the content feels emotionally indispensable, not just delightful once."
+        },
+        {
+          "investor": "Priya Shah",
+          "score": 7,
+          "verdict": "maybe",
+          "feedback": "The wedge is clear and the MVP is tight: bedtime ritual, dream-to-story personalization, and a simple 90-day build with no feature bloat. I also like that you’ve thought about a real acquisition angle and gave coherent unit economics, but the CAC/churn assumptions feel early and unproven, and the market framing is still too broad for a pre-launch pitch. What ships in the first 90 days? If you can show a small group of parents repeatedly using it on consecutive nights and validate one acquisition channel with believable CAC, this could move into invest territory."
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "average_score": 7.0,
+      "scores": [
+        {
+          "investor": "Ada Okafor",
+          "score": 6,
+          "verdict": "maybe",
+          "feedback": "Show me the numbers. The wedge is real and the product could be emotionally sticky, but this is still a pre-launch consumer app in a crowded AI category, so the moat claim is not yet proven and the acquisition plan is still directional. The unit economics are believable on paper, but 9% monthly churn and $18 CAC are assumptions, not evidence; I’d want a sharper proof plan for one cheap channel, stronger differentiation than personalization, and a credible path to repeated nightly use before I’d call this an 8."
+        },
+        {
+          "investor": "Rex Moon",
+          "score": 8,
+          "verdict": "invest",
+          "feedback": "Will this change how people live? Yes—this is aimed at a real ritual, not a gimmick, and the storytelling is strong enough to make bedtime feel like a new category, not just another AI toy. I like the narrow beachhead, the clear MVP, and the idea of a family-memory loop that can compound emotional value over time. What must change: the defensibility is still more promise than proof, and the CAC/churn math looks optimistic for a consumer subscription before launch; you need a sharper path to a repeatable acquisition channel and a concrete plan to validate that parents come back night after night because the ritual matters, not just the novelty."
+        },
+        {
+          "investor": "Priya Shah",
+          "score": 7,
+          "verdict": "maybe",
+          "feedback": "The wedge is sharp and the product is easy to understand: a bedtime ritual for parents of 3–8 year olds with a clear first use case. I like the 90-day MVP focus and the model is at least internally coherent, but the go-to-market is still hand-wavy and the CAC/churn assumptions feel optimistic for a new consumer subscription with no proof yet. Tighten the acquisition plan to one channel you can win fast, and show exactly what ships in the first 90 days and how you'll measure repeat use after launch."
+        }
+      ]
+    }
+  ],
+  "sample_story": {
+    "parent_dream": "I dreamed I was walking through a moonlit garden with my little child. Tiny fireflies floated like lanterns, and a friendly rabbit in a blue vest showed us a path to a tree with silver leaves. We picked glowing peaches, listened to a soft stream, and found a little wooden boat that could sail on a pond made of stars. My child laughed and waved to the moon before we sailed home.",
+    "bedtime_story": "One night, in a moonlit garden, you and your parent went for a gentle walk. Tiny fireflies glowed like little lanterns and lit the path ahead. Along the way, a very polite rabbit wearing a blue vest hopped up to say hello. He showed you a secret path to a beautiful tree with silver leaves that shivered softly in the breeze.\n\nOn the branches grew glowing peaches, warm as tiny candles. You picked one to share and listened to a quiet stream singing nearby. Then you found a small wooden boat resting by a pond that sparkled like stars. The rabbit bowed, the fireflies danced, and you and your parent climbed aboard.\n\nYour boat floated smoothly over the shiny water, and you waved to the moon, which looked like a kind smiling face. Soon it was time to drift home, feeling cozy, happy, and sleepy."
+  },
+  "names_tried": [
+    "DreamNest — Pick another name.",
+    "StoryLoom — Looks usable!"
+  ]
+}
