@@ -1,0 +1,194 @@
+{
+  "startup_name": "Lullava",
+  "one_liner": "Lullava turns parents’ dreams into magical, personalized bedtime stories that help kids drift off to sleep with a little wonder.",
+  "target_customers": [
+    "Parents of children ages 3-8 who want a calm, personalized bedtime routine and enjoy creative storytelling",
+    "Time-strapped working parents who journal dreams or like reflecting on them, and want a playful way to reuse that content with their kids",
+    "Gift-giving caregivers or relatives looking for a unique, emotionally meaningful bedtime app experience for families"
+  ],
+  "market_insights": "The entertainment market is sized at USD 210 bn and is growing at 9.2% annually, which is strong for a consumer subscription product. Users in this market spend about USD 12 per month on average, so a family-friendly product should price carefully against that baseline. Key trends favor this idea: generative-AI personalised content, niche communities over mass platforms, and offline-first experiences. Main risks are content moderation, subscription fatigue, and fast-moving copycats. Benchmark CAC is USD 18 and benchmark monthly churn is 9%, so retention and sharing loops will matter a lot.",
+  "competitors": [
+    {
+      "name": "SnoozeStory",
+      "price": "$7.99/month",
+      "weakness": "Generic stories, nothing from the family's own life",
+      "how_we_beat_them": "Turn the parent’s real dream into a uniquely personal bedtime story, which makes the content emotionally sticky and far harder to copy than generic AI stories."
+    },
+    {
+      "name": "DreamLog",
+      "price": "Free / $3.99 pro",
+      "weakness": "Analysis only, no creative output",
+      "how_we_beat_them": "Position as the only product that transforms dream journaling into a child-safe creative experience, not just dream tracking or interpretation."
+    }
+  ],
+  "mvp_features": [
+    "Dream input flow: simple text prompt with guided prompts to capture a parent’s dream in 1-2 minutes",
+    "AI story generator: transform the dream into a short, age-appropriate bedtime story personalized with the child’s name and preferences",
+    "Child-safe story style controls: let parents choose tone, length, and age band (e.g. 3-5, 6-8) to keep stories appropriate",
+    "Story playback/read mode: clean reading screen optimized for bedtime, with large text and optional text-to-speech",
+    "Save and reuse stories: basic library of generated stories with favorites and recent history",
+    "Sharing/export: easy copy or share via link/PDF for use outside the app"
+  ],
+  "pricing": "Premium subscription at $6.99/month, positioned between DreamLog's $3.99 pro and SnoozeStory's $7.99/month, with the personalized dream-to-story transformation as the core value driver.",
+  "unit_economics": {
+    "price_per_month_usd": 6.99,
+    "cost_to_serve_per_month_usd": 1.25,
+    "cac_usd": 18.0,
+    "monthly_churn_pct": 9.0,
+    "ltv_usd": 63.78,
+    "ltv_to_cac": 3.54,
+    "cac_payback_months": 3.1,
+    "verdict": "Healthy: investors like LTV/CAC >= 3."
+  },
+  "marketing_campaign": {
+    "slogan": "Turn dreams into a bedtime story your child can drift off to.",
+    "launch_channels": [
+      "Instagram Reels and Stories",
+      "Facebook parenting groups",
+      "Partner newsletters with parenting bloggers and family creators",
+      "App Store launch with featured screenshots and reviews"
+    ],
+    "social_posts": [
+      "Bedtime, but make it magical. ✨ Lullava turns your dream notes into personalized stories your child will actually ask for again.",
+      "Too tired to invent one more bedtime story? Lullava transforms your dreams into a calm, cozy tale in minutes—made for sleepy parents and little imaginations.",
+      "From journaled dream to lights-out storytime: Lullava helps turn bedtime into a sweet ritual your kid will love. $6.99/month for a little wonder every night."
+    ]
+  },
+  "investor_pitch": [
+    "Problem: Bedtime for parents of 3-8 year olds is a nightly negotiation: kids want something soothing and special, parents want something fast, safe, and repeatable. The current options are generic story apps, one-off books, or another subscription that doesn’t feel tied to the family’s real life. In the broader $210B entertainment market, we’re not building ‘more content’—we’re building a specific bedtime ritual category where novelty, personalization, and calm matter more than volume.",
+    "Solution: Lullava is the dream-to-story bedtime ritual: a parent types a dream in 1-2 minutes, and we turn it into a child-safe story starring their child, tuned by age, tone, and length. Example: Milo finds a silver key, opens a door in an oak tree, meets a friendly squirrel, and drifts off feeling calm and safe. That emotional loop is the product: the parent already has the dream, we transform it into a one-of-one story, and the family gets a memorable nightly ritual that feels owned—not generic AI.",
+    "Market: We are focused on a narrower, defendable subcategory: bedtime entertainment for parents of children ages 3-8 who want a calm routine and already use story or audio content. This segment sits inside a $210B entertainment market growing 9.2% annually, but our real wedge is repeat bedtime use, not broad entertainment. We price at $6.99/month, below the ~$12/month category spend benchmark and between DreamLog’s $3.99 pro tier and SnoozeStory’s $7.99/month, so we can test willingness to pay without pricing like a premium toy app.",
+    "Product: First 90 days ship only what proves the ritual: 1) a 1-minute guided dream input flow, 2) child-safe story generation with age-band, tone, and length controls, 3) bedtime reading/playback with optional text-to-speech, and 4) saved favorites so the best stories become part of a family library. To validate demand before launch, we’ll run pricing and landing-page tests around the ‘dream-to-story bedtime ritual,’ measure conversion from parent communities and creator traffic, and track whether families come back for a second, third, and seventh story—because repeat use is the habit proof we need.",
+    "Business model: Premium subscription at $6.99/month. CFO assumptions: cost to serve $1.25/month, CAC $18, monthly churn 9%. That implies gross margin of 82%, LTV of $63.78, LTV/CAC of 3.54, and CAC payback in 3.1 months. We agree those assumptions must be earned, so the first tests are designed to validate them: pricing sensitivity to confirm $6.99, channel experiments to measure real CAC by source, and retention cohorts to see whether the dream mechanic creates weekly or nightly repeat use instead of one-time novelty.",
+    "Ask: We’re raising to prove three things fast: parents will pay, parents will return, and parents will share. In the first 90 days we will launch the MVP, run pricing tests, measure acquisition by channel, and validate repeat usage with saved-story and bedtime-return cohorts. We’re looking for investors who want an ownable family ritual brand—not just another AI content tool—and who believe a small, emotionally magnetic habit can become a durable subscription business."
+  ],
+  "investor_feedback": [
+    {
+      "round": 1,
+      "average_score": 6.3,
+      "scores": [
+        {
+          "investor": "Ada Okafor",
+          "score": 6,
+          "verdict": "maybe",
+          "feedback": "Show me the numbers. The unit economics are directionally attractive on paper, and the product wedge is clear enough to be testable: a tight bedtime use case, child-safe outputs, and a simple MVP that can launch fast. But the market framing is too broad, the moat is still mostly narrative, and the $18 CAC benchmark feels hand-wavy without a concrete acquisition plan or evidence those assumptions are achievable. To get to an 8+, I’d need a sharper ICP, a believable channel strategy, and proof that parents will pay and repeatedly use this for more than novelty."
+        },
+        {
+          "investor": "Rex Moon",
+          "score": 7,
+          "verdict": "maybe",
+          "feedback": "Will this change how people live? Potentially yes, because you’ve found a genuinely intimate ritual and turned it into a product with emotional leverage. I like the category creation angle and the bedtime-first wedge, but right now it still feels a little too close to ‘personalized AI stories’ unless you prove the dream-to-story magic is consistently delightful and not just novel for a week. The numbers are directionally healthy, but I’d want stronger evidence that parents will repeatedly pay for this and that the dream input step becomes a habit, not friction. "
+        },
+        {
+          "investor": "Priya Shah",
+          "score": 6,
+          "verdict": "maybe",
+          "feedback": "What ships in the first 90 days is actually pretty clear: a tight MVP centered on dream input, story generation, and bedtime reading, with a focused wedge on parents of kids 3-8. I like the specific pricing and the attempt at unit economics, but the market framing is too broad and the customer definition is still fuzzy across parents, journaling users, and gift-givers. The numbers need more realism before I’d get to an 8: CAC is a benchmark, not evidence; 9% monthly churn is high for a subscription product; and the moat sounds more emotional than defensible. Prove the first cohort will pay, use it nightly, and share it without adding feature bloat."
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "average_score": 6.7,
+      "scores": [
+        {
+          "investor": "Ada Okafor",
+          "score": 6,
+          "verdict": "maybe",
+          "feedback": "This has a clear wedge and a real consumer pain, and I like the narrow product scope and the attempt to frame unit economics instead of vibes. But the numbers are still too convenient: $18 CAC, 9% monthly churn, and 82% gross margin look hand-wavy without evidence from even proxy tests, and the market framing is broad entertainment rather than a defendable bedtime subcategory. Show me the numbers: prove willingness to pay with pricing tests, validate acquisition costs with actual channel experiments, and explain why this becomes a habit strong enough to beat novelty and churn."
+        },
+        {
+          "investor": "Rex Moon",
+          "score": 7,
+          "verdict": "maybe",
+          "feedback": "This has a real wedge and a sharp ritual, not a me-too AI toy: parents of 3-8 year olds want calm, fast, personalized bedtime help, and the sample workflow is easy to picture. The unit economics are credible on paper, but the story still feels more like a feature than a category unless you prove a repeatable nightly habit and an emotionally magnetic brand that parents will remember. Need stronger evidence that this becomes a must-have ritual, not a cute novelty, and a more distinct name/story world that feels ownable beyond generic AI bedtime stories."
+        },
+        {
+          "investor": "Priya Shah",
+          "score": 7,
+          "verdict": "maybe",
+          "feedback": "This is a tight MVP with a believable wedge: a specific bedtime ritual for parents of 3-8 year olds, clear 90-day shipping priorities, and unit economics that at least hang together on paper. I like that you’ve avoided feature bloat and named concrete channels, but the ICP is still a bit broad and the CAC/churn assumptions feel optimistic without evidence of a repeatable acquisition loop or why this becomes a nightly habit versus a clever one-off. What ships in the first 90 days? Make that proof tighter: show demand before launch, prove parents will pay, and validate that the dream-to-story mechanic creates real repeat usage—not just novelty."
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "average_score": 7.7,
+      "scores": [
+        {
+          "investor": "Ada Okafor",
+          "score": 7,
+          "verdict": "maybe",
+          "feedback": "The wedge is clear and emotionally compelling: bedtime ritual is a real use case, the product is specific, and the MVP/test plan is sensible for pre-launch. Show me the numbers is partly answered with a coherent model, and the unit economics look investable on paper if churn and CAC are real. What’s missing is proof that this is a big enough category to build venture-scale on and that the moat is more than prompt-driven personalization—defensibility, repeat behavior, and organic sharing need to be demonstrated after launch. The $210B market framing feels too broad; I want a tighter, bottom-up TAM and evidence the $6.99 price can support efficient acquisition outside warm traffic."
+        },
+        {
+          "investor": "Rex Moon",
+          "score": 8,
+          "verdict": "Invest",
+          "feedback": "Will this change how people live? Yes — if the ritual works, this is not just another story app, it’s a new bedtime behavior built around a deeply emotional parent-child moment. The positioning is strong, the category is specific, and the MVP is sensibly focused on proving the core ritual fast; the dream-to-story hook is memorable and ownable. What must change is proving the economics and repeat demand with ruthless honesty after launch: your CAC, churn, and payback look plausible on paper, but the whole business lives or dies on whether families actually make this a habit, not a novelty."
+        },
+        {
+          "investor": "Priya Shah",
+          "score": 8,
+          "verdict": "maybe",
+          "feedback": "This is a focused MVP with a clear ritual, sensible pricing, and a credible first-90-days plan. I like that you’re not pretending to have retention yet and that you’ve named the exact proof points: conversion, channel CAC, and repeat use from the bedtime habit. The risk is still category vagueness and novelty decay—$210B entertainment is too broad, and I want sharper evidence that this is a distinct bedtime workflow families will actually adopt and keep using. What ships in the first 90 days?"
+        }
+      ]
+    }
+  ],
+  "sample_story": {
+    "parent_dream": "I dreamed I found a tiny silver key in the garden behind the blue flowerpot. It opened a little door in the trunk of an old oak tree, and inside was a cozy room with soft blankets, warm tea, and a lantern glowing like the moon. A friendly squirrel in a red scarf invited me to sit down while fireflies danced outside.",
+    "bedtime_story": "Milo found a tiny silver key in the garden behind the blue flowerpot. It opened a little door in the trunk of an old oak tree. Inside, there was a cozy room with soft blankets, warm tea, and a round lantern glowing like a moon. A friendly squirrel with a red scarf invited Milo to sit down. Together they listened to the gentle whisper of the leaves and watched little fireflies dance in the air. The squirrel shared a basket of shiny acorns that looked like marbles, and Milo placed the silver key on a shelf beside a teacup. Everything in the room felt peaceful and kind, and the oak tree seemed to hum a sleepy song. When it was time to go, Milo waved goodnight to the squirrel and the tree, then followed a path of soft grass back home, feeling calm and happy."
+  },
+  "names_tried": [
+    "DreamSprout — Pick another name.",
+    "Lullava — Looks usable!"
+  ],
+  "run_stats": {
+    "total_seconds": 31.8,
+    "total_llm_calls": 27,
+    "total_tokens": 31788,
+    "per_agent": {
+      "brand_creator": {
+        "llm_calls": 3,
+        "tokens": 1974,
+        "llm_seconds": 3.9
+      },
+      "market_analyst": {
+        "llm_calls": 3,
+        "tokens": 2523,
+        "llm_seconds": 4.1
+      },
+      "product_planner": {
+        "llm_calls": 1,
+        "tokens": 385,
+        "llm_seconds": 2.7
+      },
+      "story_writer": {
+        "llm_calls": 2,
+        "tokens": 1432,
+        "llm_seconds": 3.3
+      },
+      "cfo": {
+        "llm_calls": 3,
+        "tokens": 3047,
+        "llm_seconds": 3.6
+      },
+      "marketer": {
+        "llm_calls": 1,
+        "tokens": 430,
+        "llm_seconds": 1.8
+      },
+      "pitch_writer": {
+        "llm_calls": 5,
+        "tokens": 12325,
+        "llm_seconds": 15.2
+      },
+      "investor_panel": {
+        "llm_calls": 9,
+        "tokens": 9672,
+        "llm_seconds": 17.5
+      }
+    }
+  }
+}
