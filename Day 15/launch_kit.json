@@ -1,0 +1,194 @@
+{
+  "startup_name": "MoonMurmur",
+  "one_liner": "MoonMurmur transforms parents’ dreams into magical, personalized bedtime stories that feel lovingly made for each child.",
+  "target_customers": [
+    "Parents of children ages 3–8 who want a calming bedtime routine and already use digital parenting or journaling apps",
+    "Creative or story-loving parents who enjoy sharing personal, imaginative content with their kids and are comfortable experimenting with AI",
+    "Gift-buying relatives or caregivers looking for a novelty bedtime-story product for families with young children"
+  ],
+  "market_insights": "Entertainment is a $210bn market with 9.2% annual growth. Typical monthly spend is $12. Key trends include generative-AI personalised content, niche communities over mass platforms, and offline-first experiences. Main risks are content moderation, subscription fatigue, and fast-moving copycats. Benchmark unit economics show typical CAC of $18 and monthly churn of 9%.",
+  "competitors": [
+    {
+      "name": "SnoozeStory",
+      "price": "$7.99/month",
+      "weakness": "Generic stories, nothing from the family's own life",
+      "how_we_beat_them": "Turn parents' actual dreams and family details into one-of-one stories, making the output more emotionally sticky and far more personalised."
+    },
+    {
+      "name": "DreamLog",
+      "price": "Free / $3.99 pro",
+      "weakness": "Analysis only, no creative output",
+      "how_we_beat_them": "Convert dream capture into an immediate kid-facing bedtime story, so the product delivers a joyful finished outcome rather than just journaling."
+    }
+  ],
+  "mvp_features": [
+    "Dream capture flow: simple text entry for a parent to record a dream in a few prompts after waking up",
+    "AI story generator: turns the dream into a short, child-safe bedtime story personalized with the child’s name, age, and preferred tone",
+    "Story safety filter: removes scary, inappropriate, or overly complex content and keeps the output age-appropriate",
+    "Bedtime story presentation: clean reading view with a story title, chapters/paragraphs, and a bedtime-friendly ending",
+    "Save and replay library: stores generated stories so parents can revisit favorites and reuse them at bedtime",
+    "Basic personalization settings: child profile with name, age, favorite characters/themes, and bedtime tone options"
+  ],
+  "pricing": "Monthly subscription at $6.99/month, positioned between DreamLog's $3.99 pro tier and SnoozeStory's $7.99/month, with a premium on personalization from parents' own dreams and family details.",
+  "unit_economics": {
+    "price_per_month_usd": 6.99,
+    "cost_to_serve_per_month_usd": 1.25,
+    "cac_usd": 18.0,
+    "monthly_churn_pct": 9.0,
+    "ltv_usd": 63.78,
+    "ltv_to_cac": 3.54,
+    "cac_payback_months": 3.1,
+    "verdict": "Healthy: investors like LTV/CAC >= 3."
+  },
+  "marketing_campaign": {
+    "slogan": "Turn last night’s dream into tonight’s bedtime magic.",
+    "launch_channels": [
+      "Parenting and digital journaling app partnerships",
+      "Instagram and TikTok bedtime routine creator campaigns",
+      "Facebook parenting groups and mom communities",
+      "Gift guides and newsletter features for families"
+    ],
+    "social_posts": [
+      "Bedtime, meet your imagination. MoonMurmur turns your dreams and family details into a personalized story your child will ask for again tomorrow.",
+      "For the parents running on fumes: let MoonMurmur create a calm, magical bedtime ritual in minutes—made from your own dream world.",
+      "A story that feels lovingly made for your child, without one more thing on your to-do list. Try MoonMurmur for sweeter nights."
+    ]
+  },
+  "investor_pitch": [
+    "1. Problem: Bedtime should be the most calming part of the day, but for many parents it’s a scramble: generic stories, repetitive routines, and “personalization” that usually means only inserting a child’s name. MoonMurmur starts with a sharper behavior: parents already wake up with dreams, half-formed scenes, and emotional fragments that feel vivid and memorable. The problem is not inspiration—it’s turning that raw material into something child-safe, bedtime-ready, and repeatable. Our wedge is parents of kids ages 3–8 who already use journaling, parenting, or bedtime apps and want a ritual they can actually sustain.",
+    "2. Solution: MoonMurmur turns last night’s dream into tonight’s bedtime magic. A parent enters a dream in a few prompts after waking up; MoonMurmur converts it into a short, safe, child-friendly story personalized to the child’s name, age, favorite themes, and bedtime tone. Sample story: Maya finds a tiny silver boat on her windowsill, floats it across a moonlit garden lake with a firefly lantern, waves to a sleepy turtle and a smiling starfish, and ends the night peaceful and sleepy. Why this is different from generic AI story apps: the source material is the parent’s own dream, so each story feels emotionally specific, surprising, and family-owned—not mass-produced content with a kid’s name pasted in.",
+    "3. Market: We are not claiming the whole $210B entertainment market on day one. We are taking a focused wedge: families with children ages 3–8 who already spend on digital parenting, journaling, and bedtime tools. The category tailwinds are strong: personalized AI content is rising, niche family communities are converting better than mass platforms, and bedtime rituals are naturally offline-first habits anchored in daily life. Benchmark spend is $12/month in entertainment; our $6.99 offer fits that reality while leaving room to expand into gifting and premium personalization later. The key market proof we will seek is not broad awareness—it’s repeat usage inside one household.",
+    "4. Product: The first 90 days ship only the loop that proves habit and trust: 1) dream capture prompts, 2) AI story generation, 3) story safety filter, 4) bedtime reading view, and 5) save-and-replay library. We will not bloat the product with extra social features or endless customization. Our proof plan is concrete: measure the percentage of parents who capture a dream within 24 hours of signup, how many generate a story the same morning, how many read it at bedtime, and how often the same family reuses a saved story the next week. Defensibility comes from repeated family memory: the product gets better as it learns which dream styles, themes, and tones create a calming bedtime ritual for that child.",
+    "5. Business model: MoonMurmur launches at $6.99/month, positioned between DreamLog’s $3.99 pro tier and SnoozeStory’s $7.99/month. CFO-backed unit economics: price $6.99/month, cost to serve $1.25/month, CAC $18, monthly churn 9%, LTV $63.78, LTV/CAC 3.54, and CAC payback in 3.1 months. That is healthy for a consumer subscription. On the CAC question, we are not assuming magic—we are planning a narrow acquisition mix: parenting communities, bedtime-content creators, journaling/creative-parent audiences, and free-first-story conversion. The reason the CAC can work is that the story itself is the hook: it is highly shareable, emotionally legible, and easy to demo in one screenshot or one short video.",
+    "6. Ask: We are raising to prove three things fast: first, that parents will do the tiny morning input repeatedly; second, that a dream-to-story ritual is sticky enough to drive weekly bedtime reuse; and third, that we can acquire first paid users at a realistic CAC without product bloat. In the next 90 days, we will ship the tight MVP, run parent interviews and behavior tests, and validate paid conversion with a small cohort of families. If the data shows repeat capture, repeat reading, and healthy payback, MoonMurmur becomes a new family ritual—not just another story app. Turn last night’s dream into tonight’s bedtime magic."
+  ],
+  "investor_feedback": [
+    {
+      "round": 1,
+      "average_score": 7.0,
+      "scores": [
+        {
+          "investor": "Ada Okafor",
+          "score": 6,
+          "verdict": "maybe",
+          "feedback": "Show me the numbers. The unit economics clear my bar on paper with LTV/CAC above 3 and a plausible subscription price, but the market framing is too broad and leans on a $210B entertainment bucket instead of the real wedge and expected conversion path. The product idea is emotionally compelling and the MVP is focused, but the moat is still soft at pre-launch; you need a sharper proof plan for acquisition, repeated usage, and why this is defensible beyond 'personalization'."
+        },
+        {
+          "investor": "Rex Moon",
+          "score": 8,
+          "verdict": "invest",
+          "feedback": "Will this change how people live? MoonMurmur has a real shot: the emotional wedge is strong, the storytelling is distinctive, and the product promise feels magical rather than me-too. I like that you’re not just generating content—you’re turning family life into a new bedtime ritual. The numbers are plausible, but the business still needs proof that parents will repeatedly do the tiny input work and that the dream-to-story mechanic truly drives habit, not one-time delight."
+        },
+        {
+          "investor": "Priya Shah",
+          "score": 7,
+          "verdict": "maybe",
+          "feedback": "The MVP is tight, the first 90 days are clear, and I like that you’re focused on a simple core loop instead of feature bloat. The problem is real enough, but the market framing is too broad and the pitch doesn’t yet prove a sharp, specific customer wedge or why this wins versus a generic story generator once novelty fades. Your unit economics look plausible on paper, but at pre-launch I want to see a concrete go-to-market plan, a clearer proof strategy for habit formation, and what ships in the first 90 days beyond a nice demo."
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "average_score": 6.3,
+      "scores": [
+        {
+          "investor": "Ada Okafor",
+          "score": 6,
+          "verdict": "maybe",
+          "feedback": "Show me the numbers. I like the sharp wedge, the clear ritual, and the fact that you’re not pretending this is the whole entertainment market, but the unit economics are still model numbers, not market-proven facts. A $6.99 subscription with $18 CAC and 9% monthly churn could work, but you need to be much more convincing on why parents will repeatedly do the morning input and why this becomes defensible beyond generic AI story generation."
+        },
+        {
+          "investor": "Rex Moon",
+          "score": 7,
+          "verdict": "maybe",
+          "feedback": "MoonMurmur has a genuinely bold hook: turning a parent’s dream into a child-safe bedtime ritual is memorable, emotionally resonant, and category-creating. The MVP and go-to-market are focused, and the economics are plausible enough for a pre-launch story. What keeps this below an 8 is that the pitch still leans on assumptions dressed as proof—especially willingness to do the morning input, safety/trust concerns, and whether the ritual is truly sticky versus a one-time novelty. Show me a sharper why-now, stronger differentiation from generic AI story apps, and a proof plan that makes the behavior change undeniable."
+        },
+        {
+          "investor": "Priya Shah",
+          "score": 6,
+          "verdict": "maybe",
+          "feedback": "The wedge is specific and the 90-day MVP is appropriately tight: capture, generate, filter, read, replay. I also like that you’re thinking in terms of a recurring ritual rather than generic AI content. What’s missing is sharper proof that parents will actually do the morning input consistently, plus clearer evidence that your CAC assumption is realistic for a pre-launch consumer subscription. The model is serviceable, but the GTM still feels a bit hand-wavy—what ships in the first 90 days to validate the first paid users, and how exactly will you prove the habit without bloating the product?"
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "average_score": 7.0,
+      "scores": [
+        {
+          "investor": "Ada Okafor",
+          "score": 6,
+          "verdict": "maybe",
+          "feedback": "Show me the numbers. The wedge is interesting and the product story is emotionally strong, but the market is still a niche and the moat is more narrative than durable at this stage. The unit economics are at least directionally plausible, but they’re too convenient without clear assumptions behind churn, CAC, and conversion, and I’d want to see how many parents actually form the morning input habit before believing the LTV. "
+        },
+        {
+          "investor": "Rex Moon",
+          "score": 8,
+          "verdict": "invest",
+          "feedback": "Will this change how people live? Yes—this has the bones of a real ritual, not a me-too story generator. The dream-to-bedtime angle is emotionally vivid, category-creating, and the pitch shows a focused wedge, a lean MVP, and believable unit economics instead of fantasy scale.\n\nWhat must change: you need to prove parents will actually do the morning capture repeatedly, because that’s the habit hinge and the biggest risk. Also, the model is promising but a little too tidy for pre-launch—show me how you’ll validate CAC with real creatives and parenting channels, and make the safety layer feel like a moat, not just a feature."
+        },
+        {
+          "investor": "Priya Shah",
+          "score": 7,
+          "verdict": "maybe",
+          "feedback": "The wedge is clear and the MVP is tight, which I like: you’ve picked a specific habit loop, named the first 90 days, and avoided feature bloat. The unit economics are directionally believable, but the CAC and LTV assumptions feel a bit too neat for a pre-launch consumer subscription, and the target customer still needs sharper definition than “parents who journal” to make acquisition feel real. Prove that busy parents will actually do the morning dream capture more than once, and show a concrete go-to-market test that can get you to paid users without leaning on inspiration alone."
+        }
+      ]
+    }
+  ],
+  "sample_story": {
+    "parent_dream": "I dreamed I found a tiny silver boat on my windowsill. When I placed it in a puddle, the puddle became a little lake, and a firefly lit the way as the boat drifted past twinkling lily pads.",
+    "bedtime_story": "One evening, Maya found a tiny silver boat sitting on her windowsill. It was no bigger than her hand, and it shimmered like moonlight. Maya gently placed it in a puddle in the garden, and the puddle became a little shining lake.\n\nA soft breeze puffed the boat along while a friendly firefly flew above like a lantern. The boat drifted past lily pads, under a bridge made of twigs, and beside a sleepy turtle who waved a tiny hello.\n\nAt the end of the lake was a smiling starfish who gave Maya a warm wave. The firefly glowed brighter, the water sparkled, and the little silver boat turned into a shell with a pearl inside.\n\nMaya held the pearl and felt peaceful and sleepy. Then she tiptoed back inside, climbed into bed, and dreamed of moonlight, gentle waves, and magical little journeys."
+  },
+  "names_tried": [
+    "DreamSprout — Pick another name.",
+    "MoonMurmur — Looks usable!"
+  ],
+  "run_stats": {
+    "total_seconds": 37.0,
+    "total_llm_calls": 27,
+    "total_tokens": 35174,
+    "per_agent": {
+      "brand_creator": {
+        "llm_calls": 3,
+        "tokens": 2068,
+        "llm_seconds": 3.7
+      },
+      "market_analyst": {
+        "llm_calls": 2,
+        "tokens": 1793,
+        "llm_seconds": 2.9
+      },
+      "product_planner": {
+        "llm_calls": 1,
+        "tokens": 379,
+        "llm_seconds": 4.0
+      },
+      "story_writer": {
+        "llm_calls": 2,
+        "tokens": 1462,
+        "llm_seconds": 4.6
+      },
+      "cfo": {
+        "llm_calls": 3,
+        "tokens": 3040,
+        "llm_seconds": 4.5
+      },
+      "marketer": {
+        "llm_calls": 1,
+        "tokens": 420,
+        "llm_seconds": 2.1
+      },
+      "pitch_writer": {
+        "llm_calls": 6,
+        "tokens": 15321,
+        "llm_seconds": 16.4
+      },
+      "investor_panel": {
+        "llm_calls": 9,
+        "tokens": 10691,
+        "llm_seconds": 21.4
+      }
+    }
+  }
+}
